@@ -1,660 +1,662 @@
 ## player.yaml
 options-tech-level =
-    .low = Low
-    .medium = Medium
-    .no-powers = No Superpowers
-    .unrestricted = Unrestricted
+    .low = Faible
+    .medium = Moyen
+    .no-powers = Sans super-pouvoirs
+    .unrestricted = Sans restriction
 
 checkbox-automatic-concrete =
-    .label = Automatic Concrete
-    .description = Concrete foundations are automatically laid under buildings
+    .label = Béton automatique
+    .description = Des fondations de béton sont automatiquement posées sous les bâtiments
 
-notification-insufficient-funds = Insufficient funds.
-notification-new-construction-options = New construction options.
-notification-cannot-deploy-here = Cannot deploy here.
-notification-low-power = Low power.
-notification-base-under-attack = Base under attack.
-notification-ally-under-attack = Our ally is under attack.
-notification-harvester-under-attack = Harvester under attack.
-notification-silos-needed = Silos needed.
-notification-no-room-for-new-unit = No room for new unit.
-notification-cannot-build-here = Cannot build here.
-notification-one-of-our-buildings-has-been-captured = One of our buildings has been captured.
+notification-insufficient-funds = Fonds insuffisants.
+notification-new-construction-options = Nouvelles options de construction.
+notification-cannot-deploy-here = Déploiement impossible ici.
+notification-low-power = Énergie insuffisante.
+notification-base-under-attack = Base attaquée.
+notification-ally-under-attack = Notre allié est attaqué.
+notification-harvester-under-attack = Moissonneuse attaquée.
+notification-silos-needed = Silos nécessaires.
+notification-no-room-for-new-unit = Pas de place pour une nouvelle unité.
+notification-cannot-build-here = Construction impossible ici.
+notification-one-of-our-buildings-has-been-captured = Un de nos bâtiments a été capturé.
 
 ## world.yaml
 dropdown-map-worms =
-    .label = Worms
-    .description = Worms roam the map, devouring unprepared forces
+    .label = Vers
+    .description = Des vers parcourent la carte et dévorent les forces imprudentes
 
 options-starting-units =
-    .mcv-only = MCV Only
-    .light-support = Light Support
-    .heavy-support = Heavy Support
+    .mcv-only = VCM Uniquement
+    .light-support = Soutien Léger
+    .heavy-support = Soutien Lourd
 
-resource-spice = Spice
+resource-spice = Épice
 
 faction-random =
-    .name = Any
-    .description = Random House
-    A random house is chosen at the start of the game
+    .name = Aléatoire
+    .description = Maison Aléatoire
+    Une maison est choisie aléatoirement au début de la partie
 
 faction-atreides =
-    .name = Atreides
-    .description = House Atreides
-    The noble Atreides, from the water world of Caladan,
-    rely on their Ornithopters to ensure air superiority.
-    They have allied themselves with the Fremen, the fearsome
-    native warriors of Dune who can move undetected in battle.
+    .name = Atréides
+    .description = Maison Atréides
+    Les nobles Atréides, originaires de Caladan, le monde des eaux,
+    comptent sur leurs Ornithoptères pour assurer la suprématie aérienne.
+    Ils se sont alliés aux Fremen, les redoutables guerriers indigènes
+    de Dune capables de se déplacer sans être détectés au combat.
 
-    Faction Variations:
-        - Combat Tanks are balanced in terms of speed and durability
+    Variations de la Maison :
+        - Les Tanks d'Assaut sont équilibrés en vitesse et en résistance
 
-    Special Units:
+    Unités Spéciales :
         - Grenadier
         - Fremen
-        - Sonic Tank
+        - Tank Sonique
 
-    Superweapon:
-        - Airstrike
+    Super-arme :
+        - Frappe Aérienne
 
 faction-harkonnen =
     .name = Harkonnen
-    .description = House Harkonnen
-    The evil Harkonnen will stop at nothing to gain control of the spice.
-    They rely on brute force and atomic weapons to achieve their goals:
-    wealth, and the destruction of House Atreides.
+    .description = Maison Harkonnen
+    Les maléfiques Harkonnen ne reculeront devant rien pour contrôler
+    l'Épice. Ils comptent sur la force brute et les armes atomiques pour
+    atteindre leurs objectifs : la richesse, et la destruction de la
+    Maison Atréides.
 
-    Faction Variations:
-        - Combat Tanks are more durable but move at a slower speed
+    Variations de la Maison :
+        - Les Tanks d'Assaut sont plus résistants mais plus lents
 
-    Special Units:
+    Unités Spéciales :
         - Sardaukar
-        - Devastator
+        - Dévastator
 
-    Superweapon:
-        - Death Hand Missile
+    Super-arme :
+        - Missile Main de la Mort
 
 faction-ordos =
     .name = Ordos
-    .description = House Ordos
-    From the icy world of Sigma Draconis IV, the insidious Ordos are known for
-    their wealth, greed, and treachery. They often turn to mercenaries, sabotage,
-    and forbidden Ixian technologies to gain the upper hand.
+    .description = Maison Ordos
+    Originaires du monde glacé de Sigma Draconis IV, les insidieux Ordos
+    sont connus pour leur richesse, leur cupidité et leur traîtrise. Ils
+    se tournent souvent vers les mercenaires, le sabotage et les
+    technologies Ixiennes prohibées pour prendre l'avantage.
 
-    Faction Variations:
-        - Trikes are replaced by Raider Trikes
-        - Combat Tanks are faster but less durable
+    Variations de la Maison :
+        - Les Trikes sont remplacés par des Maraudeurs
+        - Les Tanks d'Assaut sont plus rapides mais moins résistants
 
-    Special Units:
-        - Raider Trike
-        - Stealth Raider Trike
+    Unités Spéciales :
+        - Maraudeur
+        - Maraudeur Furtif
         - Saboteur
-        - Deviator
+        - Déviateur
 
 faction-corrino =
     .name = Corrino
 
 faction-mercenaries =
-    .name = Mercenaries
+    .name = Mercenaires
 
 faction-smugglers =
-    .name = Smugglers
+    .name = Contrebandiers
 
 faction-fremen =
     .name = Fremen
 
 ## defaults.yaml
-notification-unit-lost = Unit lost.
-notification-unit-promoted = Unit promoted.
-notification-enemy-building-captured = Enemy building captured.
-notification-primary-building-selected = Primary building selected.
+notification-unit-lost = Unité perdue.
+notification-unit-promoted = Unité promue.
+notification-enemy-building-captured = Bâtiment ennemi capturé.
+notification-primary-building-selected = Bâtiment principal sélectionné.
 
 ## aircraft.yaml
 actor-carryall-reinforce =
-    .name = Carryall
+    .name = Aile Portante
     .description =
-    Large winged, planet-bound ship
-    Automatically lifts harvesters to and from Spice fields.
-    Lifts vehicles to Repair Pads when ordered to.
+    Grand vaisseau ailé restant sur la planète.
+    Transporte automatiquement les moissonneuses vers les nappes d'Épice et inversement.
+    Transporte les véhicules vers les Plateformes de Réparation sur ordre.
 
 actor-carryall-encyclopedia =
-    Automatically transport Harvesters between the Spice Fields and Refineries. They can also pick up units and deliver them to the Repair Pad when ordered to.
+    Transporte automatiquement les Moissonneuses entre les nappes d'Épice et les Raffineries. Peut aussi récupérer des unités et les livrer à la Plateforme de Réparation sur ordre.
 
-    The Carryall is a lightly armored transport aircraft. It is vulnerable to missiles and can only be hit by anti-aircraft weapons.
+    L'Aile Portante est un avion de transport légèrement blindé. Elle est vulnérable aux missiles et ne peut être touchée que par des armes anti-aériennes.
 
-actor-frigate-name = Frigate
+actor-frigate-name = Frégate
 
 actor-ornithopter =
-    .name = Ornithopter
+    .name = Ornithoptère
     .encyclopedia =
-    The fastest aircraft on Dune, it is lightly armored and capable of dropping 500 lb bombs. Highly effective against infantry and lightly armored targets, with the ability to damage other armor types.
+    L'unité aérienne la plus rapide de Dune, légèrement blindée et capable de larguer des bombes de 500 livres. Très efficace contre l'infanterie et les cibles légèrement blindées, avec la capacité d'endommager d'autres types de blindage.
 
-actor-ornithopter-husk-name = Ornithopter
-actor-carryall-husk-name = Carryall
-actor-carryall-huskvtol-name = Carryall
+actor-ornithopter-husk-name = Ornithoptère
+actor-carryall-husk-name = Aile Portante
+actor-carryall-huskvtol-name = Aile Portante
 
 ## arrakis.yaml
-notification-worm-attack = Worm attack.
-notification-worm-sign = Worm sign.
+notification-worm-attack = Attaque de ver.
+notification-worm-sign = Signe du ver.
 
-actor-spicebloom-spawnpoint-name = Spice Bloom spawnpoint
-actor-spicebloom-name = Spice Bloom
-actor-sandworm-name = Sandworm
-actor-sietch-name = Fremen Sietch
+actor-spicebloom-spawnpoint-name = Point d'apparition de Poche d'Épice
+actor-spicebloom-name = Poche d'Épice
+actor-sandworm-name = Ver des Sables
+actor-sietch-name = Sietch Fremen
 
 ## defaults.yaml
-meta-vehicle-generic-name = Unit
-meta-husk-generic-name = Destroyed Unit
-meta-aircrafthusk-generic-name = Unit
-meta-infantry-generic-name = Unit
-meta-plane-generic-name = Unit
+meta-vehicle-generic-name = Unité
+meta-husk-generic-name = Unité Détruite
+meta-aircrafthusk-generic-name = Unité
+meta-infantry-generic-name = Unité
+meta-plane-generic-name = Unité
 meta-building-generic-name = Structure
 
 ## husks.yaml
-actor-mcv-husk-name = Mobile Construction Vehicle (Destroyed)
-actor-harvester-husk-name = Spice Harvester (Destroyed)
-actor-siege-tank-husk-name = Siege Tank (Destroyed)
-actor-missile-tank-husk-name = Missile Tank (Destroyed)
-actor-sonic-tank-husk-name = Sonic Tank (Destroyed)
-actor-devastator-husk-name = Devastator (Destroyed)
-actor-deviator-husk-name = Deviator (Destroyed)
-meta-combat-tank-husk-name = Combat Tank (Destroyed)
+actor-mcv-husk-name = Véhicule de Construction Mobile (Détruit)
+actor-harvester-husk-name = Moissonneuse d'Épice (Détruite)
+actor-siege-tank-husk-name = Tank de Siège (Détruit)
+actor-missile-tank-husk-name = Lance-Missile (Détruit)
+actor-sonic-tank-husk-name = Tank Sonique (Détruit)
+actor-devastator-husk-name = Dévastator (Détruit)
+actor-deviator-husk-name = Déviateur (Détruit)
+meta-combat-tank-husk-name = Tank d'Assaut (Détruit)
 
 ## infantry.yaml
 actor-light-inf =
-    .name = Light Infantry
+    .name = Fantassin
     .description =
-    General-purpose infantry.
-      Strong vs Infantry
-      Weak vs Vehicles and Artillery
+    Infanterie polyvalente.
+      Fort contre l'Infanterie
+      Faible contre les Véhicules et l'Artillerie
     .encyclopedia =
-    Lightly armored foot soldiers, equipped with 9mm RP assault rifles. They are effective against infantry and lightly armored vehicles.
+    Soldats à pied légèrement blindés, équipés de fusils d'assaut RP de 9mm. Efficaces contre l'infanterie et les véhicules légèrement blindés.
 
-    Light Infantry are resistant to missiles and large-caliber guns, but are very vulnerable to high-explosives, fire, and small arms.
+    Les Fantassins résistent aux missiles et aux canons de gros calibre, mais sont très vulnérables aux puissants explosifs, au feu et aux armes légères.
 
 actor-engineer =
-    .name = Engineer
+    .name = Ingénieur
     .description =
-    Infiltrates and captures enemy
-    structures.
-      Strong vs Buildings
-      Weak vs Everything
-      Repairs damaged cliffs
+    Infiltre et capture les structures
+    ennemies.
+      Fort contre les Bâtiments
+      Faible contre Tout le reste
+      Répare les falaises endommagées
     .encyclopedia =
-    Can be used to capture enemy buildings.
+    Peut être utilisé pour capturer les bâtiments ennemis.
 
-    Engineers are resistant to anti-tank weaponry but are very vulnerable to high-explosives, fire, and small arms.
+    Les Ingénieurs résistent à l'armement anti-tank mais sont très vulnérables aux puissants explosifs, au feu et aux armes légères.
 
 actor-trooper =
-    .name = Trooper
+    .name = Soldat d'Élite
     .description =
-    Anti-tank infantry.
-      Strong vs Tanks
-      Weak vs Infantry and Artillery
+    Infanterie anti-tank.
+      Fort contre les Tanks
+      Faible contre l'Infanterie et l'Artillerie
     .encyclopedia =
-    Armed with wire-guided, armor-piercing missile warheads, Troopers are very effective against vehicles and buildings but struggle against infantry.
+    Armés d'ogives de missiles téléguidées perce-blindage, les Soldats d'Élite sont très efficaces contre les véhicules et les bâtiments, mais peinent contre l'infanterie.
 
-    Troopers are resistant to anti-tank weaponry but very vulnerable to high-explosives, fire and bullet weapons.
+    Les Soldats d'Élite résistent à l'armement anti-tank mais sont très vulnérables aux puissants explosifs, au feu et aux armes à balles.
 
 actor-thumper =
-    .name = Thumper Infantry
+    .name = Marteleur
     .description =
-    Attracts nearby worms when deployed.
-      Unarmed
+    Attire les vers à proximité une fois déployé.
+      Non armé
     .encyclopedia =
-    Deploys a loud hammering device that draws Sandworms to the area.
+    Déploie un dispositif martelant bruyamment qui attire les Vers des Sables dans la zone.
 
 actor-fremen =
     .name = Fremen
     .description =
-    Elite infantry unit with assault rifles and rockets.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
-      Special Ability: Invisibility
+    Unité d'infanterie d'élite avec fusils d'assaut et roquettes.
+      Fort contre l'Infanterie et les Véhicules
+      Faible contre l'Artillerie
+      Capacité Spéciale : Invisibilité
     .encyclopedia =
-    The native desert warriors of Dune, armed with 10mm Assault Rifles and Rockets. Their firepower is equally effective against infantry and vehicles.
+    Les guerriers indigènes du désert de Dune, armés de Fusils d'Assaut de 10mm et de Roquettes. Leur puissance de feu est aussi efficace contre l'infanterie que contre les véhicules.
 
-    Fremen units are very vulnerable to high-explosive and bullet weapons.
+    Les unités Fremen sont très vulnérables aux puissants explosifs et aux armes à balles.
 
 actor-grenadier =
     .name = Grenadier
     .description =
-    Infantry with grenades.
-      Strong vs Buildings and Infantry
-      Weak vs Vehicles
+    Infanterie équipée de grenades.
+      Fort contre les Bâtiments et l'Infanterie
+      Faible contre les Véhicules
     .encyclopedia =
-    An infantry artillery unit strong against buildings. They have a chance of exploding when killed, so should not be grouped together.
+    Une unité d'artillerie d'infanterie efficace contre les bâtiments. Elle a des chances d'exploser en mourant, il vaut donc mieux ne pas la regrouper.
 
 actor-sardaukar =
     .name = Sardaukar
     .description =
-    Elite Corrino assault infantry.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
+    Infanterie d'assaut d'élite Corrino.
+      Fort contre l'Infanterie et les Véhicules
+      Faible contre l'Artillerie
     .encyclopedia =
-    Powerful heavy troopers equipped with a machine gun that is effective against infantry and a rocket launcher for targeting vehicles.
+    Puissants soldats lourds équipés d'une mitrailleuse efficace contre l'infanterie et d'un lance-roquettes visant les véhicules.
 
 actor-mpsardaukar-description =
-    Elite Harkonnen assault infantry.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
+    Infanterie d'assaut d'élite Harkonnen.
+      Fort contre l'Infanterie et les Véhicules
+      Faible contre l'Artillerie
 
 actor-saboteur =
     .name = Saboteur
     .description =
-    Sneaky infantry with explosives.
-    Turns invisible for a limited time.
-      Strong vs Buildings
-      Weak vs Everything
-      Special Ability: Destroys buildings
+    Infanterie furtive équipée d'explosifs.
+    Devient invisible pour une durée limitée.
+      Fort contre les Bâtiments
+      Faible contre Tout le reste
+      Capacité Spéciale : Détruit les bâtiments
     .encyclopedia =
-    A specialized military unit of House Ordos, capable of demolishing enemy buildings upon entry, but dying in the resulting explosion. It can activate stealth mode to become invisible.
+    Une unité militaire spécialisée de la Maison Ordos, capable de démolir les bâtiments ennemis en y pénétrant, mais mourant dans l'explosion qui en résulte. Peut activer le mode furtif pour devenir invisible.
 
-    The Saboteur is resistant to anti-tank weaponry, but very vulnerable to high-explosives, fire, and bullet weapons.
+    Le Saboteur résiste à l'armement anti-tank, mais est très vulnérable aux puissants explosifs, au feu et aux armes à balles.
 
 actor-nsfremen-description =
-    Elite infantry unit with assault rifles and rockets.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
+    Unité d'infanterie d'élite avec fusils d'assaut et roquettes.
+      Fort contre l'Infanterie et les Véhicules
+      Faible contre l'Artillerie
 
 ## misc.yaml
-actor-crate-name = Crate
-actor-mpspawn-name = (multiplayer starting point)
-actor-waypoint-name = (waypoint for scripted behavior)
-actor-camera-name = (reveals area to owner)
-actor-wormspawner-name = (worm spawning location)
+actor-crate-name = Caisse
+actor-mpspawn-name = (point de départ multijoueur)
+actor-waypoint-name = (point de passage pour comportement scripté)
+actor-camera-name = (révèle la zone à son propriétaire)
+actor-wormspawner-name = (emplacement d'apparition de ver)
 
 actor-upgrade-conyard =
-    .name = Construction Yard Upgrade
+    .name = Amélioration du Chantier de Construction
     .description =
-    Unlocks additional construction options:
-    - Large Concrete Slab
-    - Rocket Turret
+    Débloque des options de construction supplémentaires :
+    - Grande Dalle de Béton
+    - Tourelle à Roquettes
 
 actor-upgrade-barracks =
-    .name = Barracks Upgrade
+    .name = Amélioration de la Caserne
     .description =
-    Unlocks additional infantry:
-    - Trooper
-    - Engineer
-    - Thumper Infantry
+    Débloque de l'infanterie supplémentaire :
+    - Soldat d'Élite
+    - Ingénieur
+    - Marteleur
 
-    Required to unlock faction-specific infantry:
-    - Atreides: Grenadier
-    - Harkonnen: Sardaukar
+    Nécessaire pour débloquer l'infanterie spécifique à chaque Maison :
+    - Atréides : Grenadier
+    - Harkonnen : Sardaukar
 
 actor-upgrade-light =
-    .name = Light Factory Upgrade
+    .name = Amélioration de l'Usine de Véhicules Légers
     .description =
-    Unlocks additional light units:
-    - Missile Quad
+    Débloque des unités légères supplémentaires :
+    - Quad
 
-    Required to unlock a faction-specific light unit:
-    - Ordos: Stealth Raider Trike
+    Nécessaire pour débloquer une unité légère spécifique à une Maison :
+    - Ordos : Maraudeur Furtif
 
 actor-upgrade-heavy =
-    .name = Heavy Factory Upgrade
+    .name = Amélioration de l'Usine de Véhicules Lourds
     .description =
-    Unlocks additional construction options:
-    - Repair Pad
-    - IX Research Center
+    Débloque des options de construction supplémentaires :
+    - Plateforme de Réparation
+    - Centre de Recherche Ixien
 
-    Unlocks additional heavy units:
-    - Siege Tank
-    - Missile Tank
-    - MCV
+    Débloque des unités lourdes supplémentaires :
+    - Tank de Siège
+    - Lance-Missile
+    - VCM
 
 actor-upgrade-hightech =
-    .name = High Tech Factory Upgrade
+    .name = Amélioration de l'Usine Avancée
     .description =
-    Unlocks the Atreides Air Strike superweapon.
+    Débloque la super-arme Frappe Aérienne des Atréides.
 
 actor-deathhand =
-    .name = Death Hand
+    .name = Main de la Mort
     .encyclopedia =
-    Armed with atomic cluster munitions, it detonates above its target, inflicting great damage over a wide area.
+    Armé de munitions à fragmentation atomiques, il explose au-dessus de sa cible, infligeant de lourds dégâts sur une vaste zone.
 
 ## structures.yaml
-notification-construction-complete = Construction complete.
-notification-unit-ready = Unit ready.
-notification-repairing = Repairing.
-notification-unit-repaired = Unit repaired.
-notification-select-target = Select target.
-notification-missile-launch-detected = Missile launch detected.
-notification-airstrike-ready = Airstrike ready.
-notification-building-lost = Building lost.
-notification-reinforcements-have-arrived = Reinforcements have arrived.
-notification-death-hand-missile-prepping = Death Hand missile prepping.
-notification-death-hand-missile-ready = Death Hand missile ready.
-notification-fremen-ready = Fremen ready.
-notification-saboteur-ready = Saboteur ready.
+notification-construction-complete = Construction terminée.
+notification-unit-ready = Unité prête.
+notification-repairing = Réparation en cours.
+notification-unit-repaired = Unité réparée.
+notification-select-target = Sélectionnez une cible.
+notification-missile-launch-detected = Lancement de missile détecté.
+notification-airstrike-ready = Frappe aérienne prête.
+notification-building-lost = Bâtiment perdu.
+notification-reinforcements-have-arrived = Les renforts sont arrivés.
+notification-death-hand-missile-prepping = Préparation du missile Main de la Mort.
+notification-death-hand-missile-ready = Missile Main de la Mort prêt.
+notification-fremen-ready = Fremen prêt.
+notification-saboteur-ready = Saboteur prêt.
 
 meta-concrete =
     .generic-name = Structure
     .description =
-    Provides a strong foundation that
-    protects against terrain damage.
+    Fournit une fondation solide qui
+    protège contre les dommages du terrain.
 
 actor-concrete-a =
-    .name = Concrete Slab
+    .name = Dalle de Béton
     .encyclopedia =
-    Buildings not constructed on a Concrete Slab will sustain ongoing damage from the harsh desert environment of Dune. While repairs are possible, placing structures on concrete prevents continuous weathering.
+    Les bâtiments non construits sur une Dalle de Béton subiront des dommages continus dus au rude environnement désertique de Dune. Bien que les réparations soient possibles, placer les structures sur du béton évite l'érosion continue.
 
-    Concrete is vulnerable to most weapons and cannot be repaired once damaged.
+    Le Béton est vulnérable à la plupart des armes et ne peut pas être réparé une fois endommagé.
 
-actor-concrete-b-name = Large Concrete Slab
+actor-concrete-b-name = Grande Dalle de Béton
 
 actor-construction-yard =
-    .name = Construction Yard
-    .description = Produces structures.
+    .name = Chantier de Construction
+    .description = Produit des structures.
     .encyclopedia =
-    Serving as the foundation of any base built on Arrakis, the Construction Yard produces a small amount of power and enables the construction of new structures. Protect this structure! It is critical to the success of your base.
+    Servant de fondation à toute base construite sur Arrakis, le Chantier de Construction produit une petite quantité d'énergie et permet la construction de nouvelles structures. Protégez cette structure ! Elle est essentielle au succès de votre base.
 
-    Construction yards are fairly strong, but vulnerable to all weapons to varying degrees.
+    Les Chantiers de Construction sont assez résistants, mais vulnérables à toutes les armes à des degrés divers.
 
 actor-wind-trap =
-    .name = Wind Trap
+    .name = Piège à Vent
     .description =
-    Supplies power to other
+    Fournit de l'énergie aux autres
     structures.
     .encyclopedia =
-    Produces power and water for your base. Large, above-ground ducts funnel wind currents underground into massive turbines, which drive power generators and humidity extractors.
+    Produit de l'énergie et de l'eau pour votre base. De larges conduits en surface canalisent les courants d'air sous terre vers d'énormes turbines, qui alimentent des générateurs et des extracteurs d'humidité.
 
-    Wind Traps are vulnerable to most weapons.
+    Les Pièges à Vent sont vulnérables à la plupart des armes.
 
 actor-barracks =
-    .name = Barracks
-    .description = Trains infantry.
+    .name = Caserne
+    .description = Entraîne l'infanterie.
     .encyclopedia =
-    Required for producing and training light infantry units, it can be upgraded to train advanced infantry in later missions.
+    Nécessaire pour produire et entraîner les unités d'infanterie légère, elle peut être améliorée pour entraîner de l'infanterie avancée dans les missions futures.
 
-    Barracks are vulnerable to most weapons.
+    Les Casernes sont vulnérables à la plupart des armes.
 
 actor-refinery =
-    .name = Spice Refinery
+    .name = Raffinerie d'Épice
     .description =
-    Harvesters unload Spice here
-    for processing.
+    Les moissonneuses y déchargent l'Épice
+    pour traitement.
     .encyclopedia =
-    The basis of all Spice production on Dune. Harvesters transport mined Spice to the Refinery where it is converted into credits. Refined Spice is automatically distributed to Silos and Refineries for storage. Each refinery can store Spice. A Spice Harvester is delivered by Carryall once a Refinery is built.
+    La base de toute production d'Épice sur Dune. Les Moissonneuses transportent l'Épice extraite vers la Raffinerie où elle est convertie en Solaris. L'Épice raffinée est automatiquement distribuée aux Silos et aux Raffineries pour y être stockée. Chaque raffinerie peut stocker de l'Épice. Une Moissonneuse d'Épice est livrée par Aile Portante dès qu'une Raffinerie est construite.
 
-    Refineries are vulnerable to most weapons.
+    Les Raffineries sont vulnérables à la plupart des armes.
 
 actor-silo =
     .name = Silo
-    .description = Stores excess harvested Spice.
+    .description = Stocke l'excédent d'Épice moissonnée.
     .encyclopedia =
-    Store mined Spice. Any surplus from Refineries is evenly distributed among all available Silos. If storage capacity is exceeded, excess Spice is lost. Destroyed or captured Silos redistribute their contents, provided there is sufficient space.
+    Stocke l'Épice extraite. Tout surplus des Raffineries est distribué équitablement entre tous les Silos disponibles. Si la capacité de stockage est dépassée, l'excédent d'Épice est perdu. Les Silos détruits ou capturés redistribuent leur contenu, à condition qu'il y ait suffisamment de place.
 
-    The Spice Silo is vulnerable to most weapons.
+    Le Silo à Épice est vulnérable à la plupart des armes.
 
 actor-light-factory =
-    .name = Light Factory
-    .description = Produces light vehicles.
+    .name = Usine de Véhicules Légers
+    .description = Produit des véhicules légers.
     .encyclopedia =
-    Required to produce small, lightly armored combat vehicles. It can be upgraded in later missions to manufacture more advanced light vehicles.
+    Nécessaire pour produire de petits véhicules de combat légèrement blindés. Elle peut être améliorée dans les missions futures pour fabriquer des véhicules légers plus avancés.
 
-    A Light Factory is vulnerable to most weapons.
+    Une Usine de Véhicules Légers est vulnérable à la plupart des armes.
 
 actor-heavy-factory =
-    .name = Heavy Factory
-    .description = Produces heavy vehicles.
+    .name = Usine de Véhicules Lourds
+    .description = Produit des véhicules lourds.
     .encyclopedia =
-    Enables the construction of heavy vehicles such as Harvesters and Combat Tanks. With upgrades, it unlocks advanced vehicles, though some may require additional buildings.
+    Permet la construction de véhicules lourds tels que les Moissonneuses et les Tanks d'Assaut. Avec des améliorations, elle débloque des véhicules avancés, bien que certains puissent nécessiter des bâtiments supplémentaires.
 
-    The Heavy Factory is vulnerable to most weapons.
+    L'Usine de Véhicules Lourds est vulnérable à la plupart des armes.
 
 actor-outpost =
-    .name = Outpost
+    .name = Avant-Poste Radar
     .description =
-    Provides a radar map of the battlefield.
-    Requires power to operate.
+    Fournit une carte radar du champ de bataille.
+    Nécessite de l'énergie pour fonctionner.
     .encyclopedia =
-    Once enough power is available, the Radar Outpost activates, providing a radar map.
+    Dès que suffisamment d'énergie est disponible, l'Avant-Poste Radar s'active et fournit une carte radar.
 
-    The Radar Outpost is vulnerable to most weapons.
+    L'Avant-Poste Radar est vulnérable à la plupart des armes.
 
 actor-starport =
-    .name = Starport
-    .description = Dropzone for quick reinforcements, at a price.
+    .name = Spatioport
+    .description = Zone de largage pour renforts rapides, à un certain prix.
     .encyclopedia =
-    Unlocks intergalactic trade with the CHOAM Merchants' Guild, where vehicles and airborne units can be purchased at varying rates. This facility is essential for acquiring units from the Guild.
+    Débloque le commerce intergalactique avec la Guilde des Marchands C.H.O.M., où véhicules et unités aériennes peuvent être achetés à des tarifs variables. Ce bâtiment est indispensable pour acquérir des unités auprès de la Guilde.
 
-    Even with heavy armor, the Starport is vulnerable to most weapons.
+    Même avec un blindage lourd, le Spatioport est vulnérable à la plupart des armes.
 
 actor-wall =
-    .name = Concrete Wall
+    .name = Mur de Béton
     .generic-name = Structure
-    .description = Stops units and blocks enemy fire.
+    .description = Arrête les unités et bloque les tirs ennemis.
     .encyclopedia =
-    The most effective defensive barriers on Dune, blocking tank fire and impeding unit movement.
+    Les barrières défensives les plus efficaces sur Dune, bloquant les tirs de tanks et entravant les déplacements des unités.
 
-    Walls can only be damaged by explosive weapons, missiles and shells. Similar to Concrete Slabs, they cannot be repaired once damaged.
+    Les Murs ne peuvent être endommagés que par des armes explosives, des missiles et des obus. Comme les Dalles de Béton, ils ne peuvent pas être réparés une fois endommagés.
 
 actor-medium-gun-turret =
-    .name = Gun Turret
+    .name = Tourelle
     .description =
-    Defensive structure.
-      Strong vs Tanks
-      Weak vs Infantry and Aircraft
+    Structure défensive.
+      Forte contre les Tanks
+      Faible contre l'Infanterie et l'Aviation
     .encyclopedia =
-    A medium-range weapon that is effective against all types of vehicle, particularly heavily armored ones. It automatically fires upon any enemy unit within its range and requires power to operate.
+    Une arme à moyenne portée efficace contre tous les types de véhicules, particulièrement les plus lourdement blindés. Elle tire automatiquement sur toute unité ennemie à portée et nécessite de l'énergie pour fonctionner.
 
-    The Gun Turret is resistant to small arms and explosive weapons, but vulnerable to missiles and high-caliber guns.
+    La Tourelle résiste aux armes légères et explosives, mais est vulnérable aux missiles et aux canons de gros calibre.
 
 actor-large-gun-turret =
-    .name = Rocket Turret
+    .name = Tourelle à Roquettes
     .description =
-    Defensive structure.
-    Requires power to operate.
-      Strong vs Infantry and Aircraft
-      Weak vs Tanks
+    Structure défensive.
+    Nécessite de l'énergie pour fonctionner.
+      Forte contre l'Infanterie et l'Aviation
+      Faible contre les Tanks
     .encyclopedia =
-    An enhanced defensive structure with a longer range and faster rate of fire than the Gun Turret. Its advanced targeting system requires power to operate.
+    Une structure défensive améliorée avec une portée plus longue et une cadence de tir plus rapide que la Tourelle. Son système de visée avancé nécessite de l'énergie pour fonctionner.
 
-    The Rocket Turret is resistant to firearms and explosive weapons, but vulnerable to missiles and high-caliber guns.
+    La Tourelle à Roquettes résiste aux armes à feu et explosives, mais est vulnérable aux missiles et aux canons de gros calibre.
 
 actor-repair-pad =
-    .name = Repair Pad
+    .name = Plateforme de Réparation
     .description =
-    Repairs vehicles.
-    Allows MCVs to be built.
+    Répare les véhicules.
+    Permet de construire des VCM.
     .encyclopedia =
-    Repairs units for a fraction of their production cost.
+    Répare les unités pour une fraction de leur coût de production.
 
-    The Repair Pad is vulnerable to most weapons.
+    La Plateforme de Réparation est vulnérable à la plupart des armes.
 
 actor-high-tech-factory =
-    .name = High Tech Factory
-    .description = Unlocks advanced technology.
-    .airstrikepower-name = Air Strike
-    .airstrikepower-description = Ornithopters bomb the target.
+    .name = Usine Avancée
+    .description = Débloque une technologie avancée.
+    .airstrikepower-name = Frappe Aérienne
+    .airstrikepower-description = Les Ornithoptères bombardent la cible.
     .encyclopedia =
-    Produces airborne units, and is required to build Carryalls. House Atreides can upgrade this facility to build Ornithopters for air strikes in later missions.
+    Produit des unités aériennes, et est nécessaire pour construire des Ailes Portantes. La Maison Atréides peut améliorer cette installation pour construire des Ornithoptères destinés aux frappes aériennes dans les missions futures.
 
-    The High Tech Factory is vulnerable to most weapons.
+    L'Usine Avancée est vulnérable à la plupart des armes.
 
 actor-research-centre =
-    .name = IX Research Center
-    .description = Unlocks advanced tanks.
+    .name = Centre de Recherche Ixien
+    .description = Débloque des tanks avancés.
     .encyclopedia =
-    Provides technology upgrades for both structures and vehicles. This facility is required to develop advanced special weapons and prototypes.
+    Fournit des améliorations technologiques pour les structures et les véhicules. Ce bâtiment est nécessaire pour développer des armes spéciales et des prototypes avancés.
 
-    The IX Research Center is vulnerable to most weapons.
+    Le Centre de Recherche Ixien est vulnérable à la plupart des armes.
 
 actor-palace =
-    .name = Palace
-    .description = Unlocks elite infantry and weapons.
+    .name = Palais
+    .description = Débloque l'infanterie d'élite et des armes.
     .encyclopedia =
-    Serves as the command center once built, offering additional options and special weapons.
+    Sert de centre de commandement une fois construit, offrant des options supplémentaires et des armes spéciales.
 
-    Even with heavy armor, the Palace is vulnerable to most weapons.
-    .nukepower-name = Death Hand
-    .nukepower-description = Launches an atomic missile at a target location.
-    .produceactorpower-fremen-name = Recruit Fremen
-    .produceactorpower-fremen-description = Elite infantry unit with assault rifles and rockets.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
-      Special Ability: Invisibility
-    .produceactorpower-saboteur-name = Recruit Saboteur
-    .produceactorpower-saboteur-description = Sneaky infantry with explosives.
-    Can be deployed to become invisible for a limited time.
-      Strong vs Buildings
-      Weak vs Everything
-      Special Ability: Destroys buildings
+    Même avec un blindage lourd, le Palais est vulnérable à la plupart des armes.
+    .nukepower-name = Main de la Mort
+    .nukepower-description = Lance un missile atomique sur un point désigné.
+    .produceactorpower-fremen-name = Recruter un Fremen
+    .produceactorpower-fremen-description = Unité d'infanterie d'élite avec fusils d'assaut et roquettes.
+      Fort contre l'Infanterie et les Véhicules
+      Faible contre l'Artillerie
+      Capacité Spéciale : Invisibilité
+    .produceactorpower-saboteur-name = Recruter un Saboteur
+    .produceactorpower-saboteur-description = Infanterie furtive équipée d'explosifs.
+    Peut être déployée pour devenir invisible pendant un temps limité.
+      Fort contre les Bâtiments
+      Faible contre Tout le reste
+      Capacité Spéciale : Détruit les bâtiments
 
 ## vehicles.yaml
 actor-mcv =
-    .name = Mobile Construction Vehicle
+    .name = Véhicule de Construction Mobile
     .description =
-    Deploys into a Construction Yard.
-      Unarmed
+    Se déploie en Chantier de Construction.
+      Non armé
     .encyclopedia =
-    Must be driven to an area where it can be deployed. After finding a suitable rock surface, the MCV can be transformed into a Construction Yard.
+    Doit être conduit vers une zone où il peut être déployé. Après avoir trouvé une surface rocheuse adaptée, le VCM peut être transformé en Chantier de Construction.
 
-    MCVs are resistant to bullets and light-explosives. They are vulnerable to missiles and high-caliber guns.
+    Les VCM résistent aux balles et aux explosifs légers. Ils sont vulnérables aux missiles et aux canons de gros calibre.
 
 actor-harvester =
-    .name = Spice Harvester
+    .name = Moissonneuse d'Épice
     .description =
-    Collects Spice for processing.
-      Unarmed
+    Collecte l'Épice pour traitement.
+      Non armée
     .encyclopedia =
-    Resistant to bullets, and to some degree, high explosives. They are vulnerable to missiles and high-caliber guns.
+    Résistante aux balles, et dans une certaine mesure, aux puissants explosifs. Elle est vulnérable aux missiles et aux canons de gros calibre.
 
-    A Harvester is included with a Refinery.
+    Une Moissonneuse est fournie avec chaque Raffinerie.
 
 actor-trike =
     .name = Trike
     .description =
-    Fast scout.
-      Strong vs Infantry
-      Weak vs Tanks
+    Éclaireur rapide.
+      Fort contre l'Infanterie
+      Faible contre les Tanks
     .encyclopedia =
-    Lightly armored, three-wheeled vehicles armed with heavy machine guns, effective against infantry and lightly armored vehicles.
+    Véhicules à trois roues légèrement blindés, armés de mitrailleuses lourdes, efficaces contre l'infanterie et les véhicules légèrement blindés.
 
-    Trikes are vulnerable to most weapons, high-caliber guns are slightly less effective against them.
+    Les Trikes sont vulnérables à la plupart des armes, les canons de gros calibre sont légèrement moins efficaces contre eux.
 
 actor-quad =
-    .name = Missile Quad
+    .name = Quad
     .description =
-    Missile Scout.
-      Strong vs Vehicles
-      Weak vs Infantry
+    Éclaireur à missiles.
+      Fort contre les Véhicules
+      Faible contre l'Infanterie
     .encyclopedia =
-    Superior to the Trike in both armor and firepower, the Quad is a four-wheeled vehicle firing armor-piercing rockets. It is effective against most vehicles.
+    Supérieur au Trike en blindage comme en puissance de feu, le Quad est un véhicule à quatre roues tirant des roquettes perce-blindage. Il est efficace contre la plupart des véhicules.
 
-    Quads are resistant to bullets and, to a lesser degree, explosives. They are vulnerable to missiles and high-caliber guns.
+    Les Quads résistent aux balles et, dans une moindre mesure, aux explosifs. Ils sont vulnérables aux missiles et aux canons de gros calibre.
 
 actor-siege-tank =
-    .name = Siege Tank
+    .name = Tank de Siège
     .description =
-    Siege Artillery.
-      Strong vs Infantry and Buildings
-      Weak vs Tanks
+    Artillerie de Siège.
+      Fort contre l'Infanterie et les Bâtiments
+      Faible contre les Tanks
     .encyclopedia =
-    Incredibly effective against infantry and lightly armored vehicles, but struggles against heavily armored targets. It has a long firing range.
+    Incroyablement efficace contre l'infanterie et les véhicules légèrement blindés, mais peine contre les cibles lourdement blindées. Il possède une longue portée de tir.
 
-    Siege Tanks are resistant to bullets, and to some degree, explosives. They are vulnerable to missiles and high-caliber guns.
+    Les Tanks de Siège résistent aux balles, et dans une certaine mesure, aux explosifs. Ils sont vulnérables aux missiles et aux canons de gros calibre.
 
 actor-missile-tank =
-    .name = Missile Tank
+    .name = Lance-Missile
     .description =
-    Rocket Artillery.
-      Strong vs Vehicles, Buildings and Aircraft
-      Weak vs Infantry
+    Artillerie à Roquettes.
+      Fort contre les Véhicules, les Bâtiments et l'Aviation
+      Faible contre l'Infanterie
     .encyclopedia =
-    Shoots down aircraft and is effective against most targets, except infantry.
+    Abat les appareils volants et est efficace contre la plupart des cibles, sauf l'infanterie.
 
-    Missile Tanks are vulnerable to most weapons, high-caliber guns are slightly less effective.
+    Les Lance-Missiles sont vulnérables à la plupart des armes, les canons de gros calibre sont légèrement moins efficaces.
 
 actor-sonic-tank =
-    .name = Sonic Tank
+    .name = Tank Sonique
     .description =
-    Fires sonic shocks.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
+    Tire des ondes de choc soniques.
+      Fort contre l'Infanterie et les Véhicules
+      Faible contre l'Artillerie
     .encyclopedia =
-    Most effective against infantry and lightly armored vehicles, but weaker against armored targets.
+    Très efficace contre l'infanterie et les véhicules légèrement blindés, mais plus faible contre les cibles blindées.
 
-    Its sonic waves damage all units in their path.
+    Ses ondes soniques endommagent toutes les unités sur leur trajectoire.
 
-    Resistant to bullets and small-explosives, but vulnerable to missiles and high-caliber guns.
+    Résiste aux balles et aux petits explosifs, mais est vulnérable aux missiles et aux canons de gros calibre.
 
 actor-devastator =
-    .name = Devastator
+    .name = Dévastator
     .description =
-    Super Heavy Tank.
-      Strong vs Tanks
-      Weak vs Artillery
+    Super Tank Lourd.
+      Fort contre les Tanks
+      Faible contre l'Artillerie
     .encyclopedia =
-    As the most powerful tank on Dune, the Devastator is slow but highly effective against most units. It fires dual plasma charges and can self-destruct on command, damaging nearby units and structures.
+    Le tank le plus puissant de Dune, le Dévastator est lent mais très efficace contre la plupart des unités. Il tire de doubles charges de plasma et peut s'autodétruire sur commande, endommageant les unités et structures alentour.
 
-    Resistant to bullets and high explosives, but vulnerable to missiles and high-caliber guns.
+    Résiste aux balles et aux puissants explosifs, mais est vulnérable aux missiles et aux canons de gros calibre.
 
 actor-raider =
-    .name = Raider Trike
+    .name = Maraudeur
     .description =
-    Improved Scout.
-      Strong vs Infantry and Light Vehicles
-      Weak vs Tanks
+    Éclaireur amélioré.
+      Fort contre l'Infanterie et les Véhicules Légers
+      Faible contre les Tanks
     .encyclopedia =
-    Raider Trikes, upgraded by House Ordos, have enhanced firepower, speed, and armor. Equipped with dual 20mm cannons, they are strong against infantry and lightly armored vehicles.
+    Les Maraudeurs, améliorés par la Maison Ordos, disposent d'une puissance de feu, d'une vitesse et d'un blindage renforcés. Équipés de doubles canons de 20mm, ils sont efficaces contre l'infanterie et les véhicules légèrement blindés.
 
-    Raiders are vulnerable to most weapons, though high-caliber guns are slightly less effective against them.
+    Les Maraudeurs sont vulnérables à la plupart des armes, bien que les canons de gros calibre soient légèrement moins efficaces contre eux.
 
 actor-stealth-raider =
-    .name = Stealth Raider Trike
+    .name = Maraudeur Furtif
     .description =
-    Invisible Raider Trike.
-      Strong vs Infantry and Light Vehicles
-      Weak vs Tanks
+    Maraudeur invisible.
+      Fort contre l'Infanterie et les Véhicules Légers
+      Faible contre les Tanks
     .encyclopedia =
-    A cloaked version of the Raider, good for stealth attacks. It uncloaks when it fires its machine guns.
+    Une version furtive du Maraudeur, idéale pour les attaques surprises. Il redevient visible lorsqu'il tire avec ses mitrailleuses.
 
 actor-deviator =
-    .name = Deviator
+    .name = Déviateur
     .description =
-    Fires a warhead that changes the
-    allegiance of enemy vehicles.
+    Tire une ogive qui change
+    l'allégeance des véhicules ennemis.
     .encyclopedia =
-    Fires missiles that release a silicon cloud, temporarily altering the allegiance of targeted vehicles. Personnel are only slightly affected by the cloud.
+    Tire des missiles qui libèrent un nuage de silicone, modifiant temporairement l'allégeance des véhicules ciblés. Le personnel n'est que légèrement affecté par le gaz.
 
-    The Deviator is vulnerable to most weapons, high-caliber guns are slightly less effective.
+    Le Déviateur est vulnérable à la plupart des armes, les canons de gros calibre sont légèrement moins efficaces.
 
 meta-combat-tank-description =
-    Main Battle Tank.
-      Strong vs Tanks
-      Weak vs Infantry
+    Tank de Combat Principal.
+      Fort contre les Tanks
+      Faible contre l'Infanterie
 
 actor-combat-tank-a =
-    .name = Atreides Combat Tank
+    .name = Tank d'Assaut Atréides
     .encyclopedia =
-    Effective against most vehicles but less suited against lightly armored targets.
+    Efficace contre la plupart des véhicules mais moins adapté aux cibles légèrement blindées.
 
-    Resistant to bullets and heavy explosives, but vulnerable to missiles and high-caliber guns.
+    Résiste aux balles et aux puissants explosifs, mais est vulnérable aux missiles et aux canons de gros calibre.
 
 actor-combat-tank-h =
-    .name = Harkonnen Combat Tank
+    .name = Tank d'Assaut Harkonnen
     .encyclopedia =
-    Effective against most vehicles but less suited against lightly armored targets.
+    Efficace contre la plupart des véhicules mais moins adapté aux cibles légèrement blindées.
 
-    Stronger than its counterparts, but also slower.
+    Plus résistant que ses homologues, mais aussi plus lent.
 
 actor-combat-tank-o =
-    .name = Ordos Combat Tank
+    .name = Tank d'Assaut Ordos
     .encyclopedia =
-    Effective against most vehicles but less suited against lightly armored targets.
+    Efficace contre la plupart des véhicules mais moins adapté aux cibles légèrement blindées.
 
-    The fastest variant of Combat Tank, but also the weakest.
+    La variante de Tank d'Assaut la plus rapide, mais aussi la plus faible.
 
 meta-destroyabletile =
-    .generic-name = Passage (destroyable)
-    .name = Passage (destroyable)
+    .generic-name = Passage (destructible)
+    .name = Passage (destructible)
 
 meta-destroyedtile =
-    .generic-name = Passage (repairable)
-    .name = Passage (repairable)
+    .generic-name = Passage (réparable)
+    .name = Passage (réparable)
 
 ## ai.yaml
 bot-omnius =

@@ -5,186 +5,186 @@ label-mentat-title = Mentat
 label-menu-buttons-title = Options
 
 ## ingame-observer.yaml
-button-observer-widget-options = Options (Esc)
+button-observer-widget-options = Options (Échap)
 button-replay-player-pause-tooltip = Pause
-button-replay-player-play-tooltip = Play
+button-replay-player-play-tooltip = Lecture
 
 button-replay-player-slow =
-    .tooltip = Slow speed
+    .tooltip = Vitesse lente
     .label = 50%
 
 button-replay-player-regular =
-    .tooltip = Regular speed
+    .tooltip = Vitesse normale
     .label = 100%
 
 button-replay-player-fast =
-    .tooltip = Fast speed
+    .tooltip = Vitesse rapide
     .label = 200%
 
 button-replay-player-maximum =
-    .tooltip = Maximum speed
+    .tooltip = Vitesse maximale
     .label = MAX
 
-label-basic-stats-player-header = Player
-label-basic-stats-cash-header = Cash
-label-basic-stats-power-header = Power
-label-basic-stats-kills-header = Kills
-label-basic-stats-deaths-header = Deaths
-label-basic-stats-assets-destroyed-header = Destroyed
-label-basic-stats-assets-lost-header = Lost
+label-basic-stats-player-header = Joueur
+label-basic-stats-cash-header = Solaris
+label-basic-stats-power-header = Énergie
+label-basic-stats-kills-header = Éliminations
+label-basic-stats-deaths-header = Pertes
+label-basic-stats-assets-destroyed-header = Détruits
+label-basic-stats-assets-lost-header = Perdus
 label-basic-stats-experience-header = Score
 label-basic-stats-actions-min-header = APM
-label-economy-stats-player-header = Player
-label-economy-stats-cash-header = Cash
-label-economy-stats-income-header = Income
-label-economy-stats-assets-header = Assets
-label-economy-stats-earned-header = Earned
-label-economy-stats-spent-header = Spent
-label-economy-stats-harvesters-header = Harvesters
-label-economy-stats-carryalls-header = Carryalls
-label-production-stats-player-header = Player
+label-economy-stats-player-header = Joueur
+label-economy-stats-cash-header = Solaris
+label-economy-stats-income-header = Revenus
+label-economy-stats-assets-header = Biens
+label-economy-stats-earned-header = Gagné
+label-economy-stats-spent-header = Dépensé
+label-economy-stats-harvesters-header = Moissonneuses
+label-economy-stats-carryalls-header = Ailes Portantes
+label-production-stats-player-header = Joueur
 label-production-stats-header = Production
-label-support-powers-player-header = Player
-label-support-powers-header = Support Powers
-label-army-player-header = Player
-label-army-header = Army
-label-combat-stats-player-header = Player
-label-combat-stats-assets-destroyed-header = Destroyed
-label-combat-stats-assets-lost-header = Lost
-label-combat-stats-units-killed-header = U. Killed
-label-combat-stats-units-dead-header = U. Lost
-label-combat-stats-buildings-killed-header = B. Killed
-label-combat-stats-buildings-dead-header = B. Lost
-label-combat-stats-army-value-header = Army Value
+label-support-powers-player-header = Joueur
+label-support-powers-header = Pouvoirs de Soutien
+label-army-player-header = Joueur
+label-army-header = Armée
+label-combat-stats-player-header = Joueur
+label-combat-stats-assets-destroyed-header = Détruits
+label-combat-stats-assets-lost-header = Perdus
+label-combat-stats-units-killed-header = U. Détruites
+label-combat-stats-units-dead-header = U. Perdues
+label-combat-stats-buildings-killed-header = B. Détruits
+label-combat-stats-buildings-dead-header = B. Perdus
+label-combat-stats-army-value-header = Valeur de l'Armée
 label-combat-stats-vision-header = Vision
 
 ## ingame-observer.yaml, ingame-player.yaml
-label-mute-indicator = Audio Muted
+label-mute-indicator = Son Coupé
 
 ## ingame-player.yaml
 supportpowers-support-powers-palette =
-    .ready = READY
-    .hold = ON HOLD
+    .ready = PRÊT
+    .hold = EN ATTENTE
 
 button-command-bar-attack-move =
-    .tooltip = Attack Move
+    .tooltip = Déplacement Offensif
     .tooltipdesc =
-    Selected units will move to the desired location
-    and attack any enemies they encounter en route.
+    Les unités sélectionnées se déplaceront vers l'endroit désiré
+    et attaqueront tout ennemi rencontré en chemin.
 
-    Hold <(Ctrl)> while targeting to order an Assault Move
-    that attacks any units or structures encountered en route.
+    Maintenez <(Ctrl)> en visant pour ordonner un Déplacement d'Assaut
+    qui attaque toute unité ou structure rencontrée en chemin.
 
-    Left-click icon then right-click on target location.
+    Clic gauche sur l'icône puis clic droit sur l'emplacement cible.
 
 button-command-bar-force-move =
-    .tooltip = Force Move
+    .tooltip = Déplacement Forcé
     .tooltipdesc =
-    Selected units will move to the desired location
-     - Default activity for the target is suppressed
-     - Vehicles will attempt to crush enemies at the target location
-     - Deployed thumpers will undeploy and move to the target location
+    Les unités sélectionnées se déplaceront vers l'endroit désiré
+     - L'activité par défaut sur la cible est supprimée
+     - Les véhicules tenteront d'écraser les ennemis à l'emplacement cible
+     - Les marteleurs déployés se replieront et se déplaceront vers la cible
 
-    Left-click icon then right-click on target.
-    Hold <(Alt)> to activate temporarily while commanding units.
+    Clic gauche sur l'icône puis clic droit sur la cible.
+    Maintenez <(Alt)> pour activer temporairement en commandant des unités.
 
 button-command-bar-force-attack =
-    .tooltip = Force Attack
+    .tooltip = Tir Forcé
     .tooltipdesc =
-    Selected units will attack the targeted unit or location
-     - Default activity for the target is suppressed
-     - Allows targeting of own or ally forces
+    Les unités sélectionnées attaqueront l'unité ou l'emplacement ciblé
+     - L'activité par défaut sur la cible est supprimée
+     - Permet de cibler ses propres forces ou celles d'un allié
 
-    Left-click icon then right-click on target.
-    Hold <(Ctrl)> to activate temporarily while commanding units.
+    Clic gauche sur l'icône puis clic droit sur la cible.
+    Maintenez <(Ctrl)> pour activer temporairement en commandant des unités.
 
 button-command-bar-guard =
-    .tooltip = Guard
+    .tooltip = Garde
     .tooltipdesc =
-    Selected units will follow the targeted unit.
+    Les unités sélectionnées suivront l'unité ciblée.
 
-    Left-click icon then right-click on target unit.
+    Clic gauche sur l'icône puis clic droit sur l'unité cible.
 
 button-command-bar-deploy =
-    .tooltip = Deploy
+    .tooltip = Déploiement
     .tooltipdesc =
-    Selected units will perform their default deploy activity
-     - MCVs will unpack into a Construction Yard
-     - Thumpers will start or stop attracting worms
-     - Devastators will become immobilized and explode
+    Les unités sélectionnées effectueront leur activité de déploiement par défaut
+     - Les VCM se déploieront en Chantier de Construction
+     - Les Marteleurs commenceront ou arrêteront d'attirer les vers
+     - Les Dévastators s'immobiliseront et exploseront
 
-    Acts immediately on selected units.
+    Agit immédiatement sur les unités sélectionnées.
 
 button-command-bar-scatter =
-    .tooltip = Scatter
+    .tooltip = Dispersion
     .tooltipdesc =
-    Selected units will stop their current activity
-    and move to a nearby location.
+    Les unités sélectionnées arrêteront leur activité actuelle
+    et se déplaceront vers un endroit proche.
 
-    Acts immediately on selected units.
+    Agit immédiatement sur les unités sélectionnées.
 
 button-command-bar-stop =
-    .tooltip = Stop
+    .tooltip = Arrêt
     .tooltipdesc =
-    Selected units will stop their current activity.
-    Selected buildings will reset their rally point.
+    Les unités sélectionnées arrêteront leur activité actuelle.
+    Les bâtiments sélectionnés réinitialiseront leur point de ralliement.
 
-    Acts immediately on selected targets.
+    Agit immédiatement sur les cibles sélectionnées.
 
 button-command-bar-queue-orders =
-    .tooltip = Waypoint Mode
+    .tooltip = Mode Points de Passage
     .tooltipdesc =
-    Use Waypoint Mode to give multiple linking commands
-    to the selected units. Units will execute the commands
-    immediately upon receiving them.
+    Utilisez le Mode Points de Passage pour donner plusieurs ordres liés
+    aux unités sélectionnées. Les unités exécuteront les ordres
+    immédiatement dès leur réception.
 
-    Left-click icon then give commands in the game world.
-    Hold <(Shift)> to activate temporarily while commanding units.
+    Clic gauche sur l'icône puis donnez des ordres dans le monde du jeu.
+    Maintenez <(Maj)> pour activer temporairement en commandant des unités.
 
 button-stance-bar-attackanything =
-    .tooltip = Attack Anything Stance
+    .tooltip = Posture Attaque Totale
     .tooltipdesc =
-    Set the selected units to Attack Anything stance:
-     - Units will attack enemy units and structures on sight
-     - Units will pursue attackers across the battlefield
+    Passe les unités sélectionnées en posture Attaque Totale :
+     - Les unités attaqueront les unités et structures ennemies à vue
+     - Les unités poursuivront leurs assaillants à travers le champ de bataille
 
 button-stance-bar-defend =
-    .tooltip = Defend Stance
+    .tooltip = Posture Défensive
     .tooltipdesc =
-    Set the selected units to Defend stance:
-     - Units will attack enemy units on sight
-     - Units will not move or pursue enemies
+    Passe les unités sélectionnées en posture Défensive :
+     - Les unités attaqueront les unités ennemies à vue
+     - Les unités ne se déplaceront pas et ne poursuivront pas les ennemis
 
 button-stance-bar-returnfire =
-    .tooltip = Return Fire Stance
+    .tooltip = Posture Riposte
     .tooltipdesc =
-    Set the selected units to Return Fire stance:
-     - Units will retaliate against enemies that attack them
-     - Units will not move or pursue enemies
+    Passe les unités sélectionnées en posture Riposte :
+     - Les unités riposteront contre les ennemis qui les attaquent
+     - Les unités ne se déplaceront pas et ne poursuivront pas les ennemis
 
 button-stance-bar-holdfire =
-    .tooltip = Hold Fire Stance
+    .tooltip = Posture Cessez-le-feu
     .tooltipdesc =
-    Set the selected units to Hold Fire stance:
-     - Units will not fire upon enemies
-     - Units will not move or pursue enemies
+    Passe les unités sélectionnées en posture Cessez-le-feu :
+     - Les unités ne tireront pas sur les ennemis
+     - Les unités ne se déplaceront pas et ne poursuivront pas les ennemis
 
-button-top-buttons-repair-tooltip = Repair
-button-top-buttons-sell-tooltip = Sell
-button-top-buttons-beacon-tooltip = Place Beacon
-button-top-buttons-power-tooltip = Power Down
+button-top-buttons-repair-tooltip = Réparer
+button-top-buttons-sell-tooltip = Vendre
+button-top-buttons-beacon-tooltip = Placer une Balise
+button-top-buttons-power-tooltip = Couper l'Énergie
 button-top-buttons-options-tooltip = Options
 
 productionpalette-sidebar-production-palette =
-    .ready = READY
-    .hold = ON HOLD
+    .ready = PRÊT
+    .hold = EN ATTENTE
 
-button-production-types-building-tooltip = Buildings
-button-production-types-infantry-tooltip = Infantry
-button-production-types-vehicle-tooltip = Light Vehicles
-button-production-types-tanks-tooltip = Heavy Vehicles
-button-production-types-aircraft-tooltip = Aircraft
-button-production-types-starport-tooltip = Starport
-button-production-types-upgrade-tooltip = Upgrades
-button-production-types-scroll-up-tooltip = Scroll up
-button-production-types-scroll-down-tooltip = Scroll down
+button-production-types-building-tooltip = Bâtiments
+button-production-types-infantry-tooltip = Infanterie
+button-production-types-vehicle-tooltip = Véhicules Légers
+button-production-types-tanks-tooltip = Véhicules Lourds
+button-production-types-aircraft-tooltip = Aviation
+button-production-types-starport-tooltip = Spatioport
+button-production-types-upgrade-tooltip = Améliorations
+button-production-types-scroll-up-tooltip = Défiler vers le haut
+button-production-types-scroll-down-tooltip = Défiler vers le bas

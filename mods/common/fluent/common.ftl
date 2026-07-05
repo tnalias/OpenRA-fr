@@ -1,870 +1,870 @@
 ## Buttons
-button-cancel = Cancel
-button-retry = Retry
-button-back = Back
-button-continue = Continue
-button-quit = Quit
+button-cancel = Annuler
+button-retry = Réessayer
+button-back = Retour
+button-continue = Continuer
+button-quit = Quitter
 
 ## Server Orders
-notification-custom-rules = This map contains custom rules. Game experience may change.
-notification-map-bots-disabled = Bots have been disabled on this map.
-notification-two-humans-required = This server requires at least two human players to start a match.
-notification-unknown-server-command = Unknown server command: { $command }.
-notification-admin-start-game = Only the host can start the game.
-notification-no-start-until-required-slots-full = Unable to start the game until required slots are full.
-notification-no-start-without-players = Game cannot start without players.
-notification-insufficient-enabled-spawn-points = Unable to start the game until more spawn points are enabled.
-notification-malformed-command = Malformed { $command } command.
-notification-state-unchanged-ready = Cannot change state when marked as ready.
-notification-invalid-faction-selected = Invalid faction selected: { $faction }.
-notification-state-unchanged-game-started = State cannot be changed once the game has started ({ $command }).
-notification-requires-host = Only the host can do that.
-notification-invalid-bot-slot = Cannot add bots to a slot with another client.
-notification-invalid-bot-type = Invalid bot type.
-notification-admin-change-map = Only the host can change the map.
-notification-player-disconnected = { $player } has disconnected.
-notification-team-player-disconnected = { $player } (Team { $team }) has disconnected.
-notification-observer-disconnected = { $player } (Spectator) has disconnected.
-notification-unknown-map = Map was not found on server.
-notification-searching-map = Searching for map on the Resource Center...
-notification-admin-change-configuration = Only the host can change the configuration.
-notification-changed-map = { $player } changed the map to { $map }.
-notification-option-changed = { $player } changed { $name } to { $value }.
-notification-you-were-kicked = You have been kicked from the server.
-notification-admin-kicked = { $admin } kicked { $player } from the server.
-notification-kicked = { $player } was kicked from the server.
-notification-temp-ban = { $admin } temporarily banned { $player } from the server.
-notification-admin-transfer-admin = Only admins can transfer admin to another player.
-notification-admin-move-spectators = Only the host can move players to spectators.
-notification-empty-slot = No one in that slot.
-notification-move-spectators = { $admin } moved { $player } to spectators.
-notification-nick-changed = { $player } is now known as { $name }.
-notification-player-dropped = A player has been dropped after timing out.
-notification-connection-problems = { $player } is experiencing connection problems.
-notification-timeout-dropped = { $player } has been dropped after timing out.
+notification-custom-rules = Cette carte contient des règles personnalisées. L'expérience de jeu peut varier.
+notification-map-bots-disabled = Les bots ont été désactivés sur cette carte.
+notification-two-humans-required = Ce serveur nécessite au moins deux joueurs humains pour démarrer une partie.
+notification-unknown-server-command = Commande serveur inconnue : { $command }.
+notification-admin-start-game = Seul l'hôte peut démarrer la partie.
+notification-no-start-until-required-slots-full = Impossible de démarrer tant que les emplacements requis ne sont pas remplis.
+notification-no-start-without-players = La partie ne peut pas démarrer sans joueurs.
+notification-insufficient-enabled-spawn-points = Impossible de démarrer tant qu'il n'y a pas assez de points de départ activés.
+notification-malformed-command = Commande { $command } mal formée.
+notification-state-unchanged-ready = Impossible de changer d'état une fois prêt.
+notification-invalid-faction-selected = Maison invalide sélectionnée : { $faction }.
+notification-state-unchanged-game-started = L'état ne peut plus être modifié une fois la partie commencée ({ $command }).
+notification-requires-host = Seul l'hôte peut faire cela.
+notification-invalid-bot-slot = Impossible d'ajouter des bots à un emplacement occupé par un autre client.
+notification-invalid-bot-type = Type de bot invalide.
+notification-admin-change-map = Seul l'hôte peut changer la carte.
+notification-player-disconnected = { $player } s'est déconnecté.
+notification-team-player-disconnected = { $player } (Équipe { $team }) s'est déconnecté.
+notification-observer-disconnected = { $player } (Spectateur) s'est déconnecté.
+notification-unknown-map = Carte introuvable sur le serveur.
+notification-searching-map = Recherche de la carte sur le Centre de Ressources...
+notification-admin-change-configuration = Seul l'hôte peut changer la configuration.
+notification-changed-map = { $player } a changé la carte pour { $map }.
+notification-option-changed = { $player } a changé { $name } en { $value }.
+notification-you-were-kicked = Vous avez été exclu du serveur.
+notification-admin-kicked = { $admin } a exclu { $player } du serveur.
+notification-kicked = { $player } a été exclu du serveur.
+notification-temp-ban = { $admin } a temporairement banni { $player } du serveur.
+notification-admin-transfer-admin = Seuls les administrateurs peuvent transférer les droits admin à un autre joueur.
+notification-admin-move-spectators = Seul l'hôte peut déplacer des joueurs vers les spectateurs.
+notification-empty-slot = Personne dans cet emplacement.
+notification-move-spectators = { $admin } a déplacé { $player } vers les spectateurs.
+notification-nick-changed = { $player } est maintenant connu sous le nom de { $name }.
+notification-player-dropped = Un joueur a été déconnecté après un délai d'attente dépassé.
+notification-connection-problems = { $player } rencontre des problèmes de connexion.
+notification-timeout-dropped = { $player } a été déconnecté après un délai d'attente dépassé.
 notification-timeout-dropped-in =
     { $timeout ->
-        [one] { $player } will be dropped in { $timeout } second.
-       *[other] { $player } will be dropped in { $timeout } seconds.
+        [one] { $player } sera déconnecté dans { $timeout } seconde.
+       *[other] { $player } sera déconnecté dans { $timeout } secondes.
     }
-notification-error-game-started = The game has already started.
-notification-requires-password = Server requires a password.
-notification-incorrect-password = Incorrect password.
-notification-incompatible-mod = Server is running an incompatible mod.
-notification-incompatible-version = Server is running an incompatible version.
-notification-incompatible-protocol = Server is running an incompatible protocol.
-notification-you-were-banned = You have been banned from the server.
-notification-you-were-temp-banned = You have been temporarily banned from the server.
-notification-game-full = The game is full.
-notification-new-admin = { $player } is now the admin.
-notification-option-locked = { $option } cannot be changed.
-notification-invalid-configuration-command = Invalid configuration command.
-notification-admin-option = Only the host can set that option.
-notification-error-number-teams = Could not parse the number of teams: { $raw }.
-notification-admin-kick = Only the host can kick players.
-notification-kick-self = The host cannot kick themselves.
-notification-kick-none = No one in that slot.
-notification-no-kick-game-started = Only spectators and defeated players can be kicked after the game has started.
-notification-admin-clear-spawn = Only admins can clear spawn points.
-notification-spawn-occupied = You cannot occupy the same spawn point as another player.
-notification-spawn-locked = The spawn point is locked to another player slot.
-notification-admin-lobby-info = Only the host can set lobby info.
-notification-invalid-lobby-info = Invalid lobby info sent.
-notification-player-color-terrain = Color was adjusted to be less similar to the terrain.
-notification-player-color-player = Color was adjusted to be less similar to another player.
-notification-invalid-player-color = Unable to determine a valid player color. A random color has been selected.
-notification-invalid-error-code = Failed to parse error message.
-notification-master-server-connected = Master server communication established.
-notification-master-server-error = Master server communication failed.
-notification-game-offline = Game has not been advertised online.
-notification-no-port-forward = Server port is not accessible from the internet.
-notification-blacklisted-server-name = Server name contains a blacklisted word.
-notification-requires-authentication = Server requires players to have an OpenRA forum account.
-notification-no-permission-to-join = You do not have permission to join this server.
-notification-slot-closed = Your slot was closed by the host.
+notification-error-game-started = La partie a déjà commencé.
+notification-requires-password = Le serveur nécessite un mot de passe.
+notification-incorrect-password = Mot de passe incorrect.
+notification-incompatible-mod = Le serveur utilise un mod incompatible.
+notification-incompatible-version = Le serveur utilise une version incompatible.
+notification-incompatible-protocol = Le serveur utilise un protocole incompatible.
+notification-you-were-banned = Vous avez été banni du serveur.
+notification-you-were-temp-banned = Vous avez été temporairement banni du serveur.
+notification-game-full = La partie est complète.
+notification-new-admin = { $player } est maintenant l'administrateur.
+notification-option-locked = { $option } ne peut pas être modifié.
+notification-invalid-configuration-command = Commande de configuration invalide.
+notification-admin-option = Seul l'hôte peut définir ce paramètre.
+notification-error-number-teams = Impossible d'analyser le nombre d'équipes : { $raw }.
+notification-admin-kick = Seul l'hôte peut exclure des joueurs.
+notification-kick-self = L'hôte ne peut pas s'exclure lui-même.
+notification-kick-none = Personne dans cet emplacement.
+notification-no-kick-game-started = Seuls les spectateurs et les joueurs vaincus peuvent être exclus après le début de la partie.
+notification-admin-clear-spawn = Seuls les administrateurs peuvent effacer les points de départ.
+notification-spawn-occupied = Vous ne pouvez pas occuper le même point de départ qu'un autre joueur.
+notification-spawn-locked = Ce point de départ est réservé à un autre emplacement de joueur.
+notification-admin-lobby-info = Seul l'hôte peut définir les infos du lobby.
+notification-invalid-lobby-info = Infos de lobby invalides envoyées.
+notification-player-color-terrain = La couleur a été ajustée pour moins ressembler au terrain.
+notification-player-color-player = La couleur a été ajustée pour moins ressembler à celle d'un autre joueur.
+notification-invalid-player-color = Impossible de déterminer une couleur de joueur valide. Une couleur aléatoire a été choisie.
+notification-invalid-error-code = Échec de l'analyse du message d'erreur.
+notification-master-server-connected = Communication avec le serveur principal établie.
+notification-master-server-error = Échec de la communication avec le serveur principal.
+notification-game-offline = La partie n'a pas été publiée en ligne.
+notification-no-port-forward = Le port du serveur n'est pas accessible depuis internet.
+notification-blacklisted-server-name = Le nom du serveur contient un mot interdit.
+notification-requires-authentication = Le serveur exige un compte du forum OpenRA.
+notification-no-permission-to-join = Vous n'avez pas la permission de rejoindre ce serveur.
+notification-slot-closed = Votre emplacement a été fermé par l'hôte.
 
 ## LobbySettingsNotification
-notification-lobby-option = { $name }: { $value }.
+notification-lobby-option = { $name } : { $value }.
 
 ## ServerOrders, UnitOrders
-notification-joined = { $player } has joined the game.
-notification-lobby-disconnected = { $player } has left.
+notification-joined = { $player } a rejoint la partie.
+notification-lobby-disconnected = { $player } est parti.
 
 ## UnitOrders
-notification-game-has-started = The game has started.
-notification-game-saved = Game saved.
-notification-game-paused = The game has been paused by { $player }.
-notification-game-unpaused = The game has been un-paused by { $player }.
+notification-game-has-started = La partie a commencé.
+notification-game-saved = Partie sauvegardée.
+notification-game-paused = La partie a été mise en pause par { $player }.
+notification-game-unpaused = La partie a été reprise par { $player }.
 
 ## Server
-notification-game-started = Game started.
+notification-game-started = Partie démarrée.
 
 ## PlayerMessageTracker
 notification-chat-temp-disabled =
     { $remaining ->
-        [one] Chat is disabled. Please try again in { $remaining } second.
-       *[other] Chat is disabled. Please try again in { $remaining } seconds.
+        [one] Chat désactivé. Réessayez dans { $remaining } seconde.
+       *[other] Chat désactivé. Réessayez dans { $remaining } secondes.
     }
 
 ## VoteKickTracker
-notification-unable-to-start-a-vote = Unable to start a vote.
-notification-insufficient-votes-to-kick = Insufficient votes to kick player { $kickee }.
-notification-kick-already-voted = You have already voted.
-notification-vote-kick-started = Player { $kicker } has started a vote to kick player { $kickee }.
-notification-vote-kick-in-progress = { $percentage }% of players have voted to kick player { $kickee }.
-notification-vote-kick-ended = Vote to kick player { $kickee } has failed.
+notification-unable-to-start-a-vote = Impossible de démarrer un vote.
+notification-insufficient-votes-to-kick = Votes insuffisants pour exclure { $kickee }.
+notification-kick-already-voted = Vous avez déjà voté.
+notification-vote-kick-started = { $kicker } a lancé un vote pour exclure { $kickee }.
+notification-vote-kick-in-progress = { $percentage }% des joueurs ont voté pour exclure { $kickee }.
+notification-vote-kick-ended = Le vote pour exclure { $kickee } a échoué.
 
 ## ActorEditLogic
-label-duplicate-actor-id = Duplicate Actor ID
-label-actor-id = Enter an Actor ID
-label-actor-owner = Owner
+label-duplicate-actor-id = ID d'Acteur en Double
+label-actor-id = Entrez un ID d'Acteur
+label-actor-owner = Propriétaire
 
 ## ActorSelectorLogic
-label-actor-type = Type: { $actorType }
+label-actor-type = Type : { $actorType }
 
 ## CommonSelectorLogic
 options-common-selector =
-    .search-results = Search Results
-    .all = All
-    .multiple = Multiple
-    .none = None
+    .search-results = Résultats de Recherche
+    .all = Tout
+    .multiple = Plusieurs
+    .none = Aucun
 
 ## SaveMapLogic
-label-unpacked-map = unpacked
+label-unpacked-map = décompressée
 
 dialog-save-map-failed =
-    .title = Failed to save map
-    .prompt = See debug.log for details.
+    .title = Échec de la sauvegarde de la carte
+    .prompt = Voir debug.log pour plus de détails.
     .confirm = OK
 
 dialog-overwrite-map-failed =
-    .title = Warning
-    .prompt = By saving you will overwrite
-    an already existing map.
-    .confirm = Save
+    .title = Attention
+    .prompt = En sauvegardant, vous allez écraser
+    une carte déjà existante.
+    .confirm = Sauvegarder
 
 dialog-overwrite-map-outside-edit =
-    .title = Warning
-    .prompt = The map has been edited from outside the editor.
-    By saving you may overwrite progress.
-    .confirm = Save
+    .title = Attention
+    .prompt = La carte a été modifiée en dehors de l'éditeur.
+    En sauvegardant, vous risquez d'écraser des changements.
+    .confirm = Sauvegarder
 
-notification-save-current-map = Saved current map.
+notification-save-current-map = Carte actuelle sauvegardée.
 
 ## GameInfoLogic
 menu-game-info =
-    .objectives = Objectives
+    .objectives = Objectifs
     .briefing = Briefing
     .options = Options
-    .debug = Debug
+    .debug = Débogage
     .chat = Chat
 
 ## GameInfoObjectivesLogic, GameInfoStatsLogic
-label-mission-in-progress = In progress
-label-mission-accomplished = Accomplished
-label-mission-failed = Failed
+label-mission-in-progress = En cours
+label-mission-accomplished = Accomplie
+label-mission-failed = Échouée
 
 ## GameInfoStatsLogic
-label-client-state-disconnected = Gone
-label-mute-player = Mute this player
-label-unmute-player = Unmute this player
-button-kick-player = Kick this player
-button-vote-kick-player = Vote to kick this player
+label-client-state-disconnected = Parti
+label-mute-player = Rendre ce joueur muet
+label-unmute-player = Réactiver le son de ce joueur
+button-kick-player = Exclure ce joueur
+button-vote-kick-player = Voter pour exclure ce joueur
 
 dialog-kick =
-    .title = Kick { $player }?
-    .prompt = This player will not be able to rejoin the game.
-    .confirm = Kick
+    .title = Exclure { $player } ?
+    .prompt = Ce joueur ne pourra pas rejoindre à nouveau la partie.
+    .confirm = Exclure
 
 dialog-vote-kick =
-    .title = Vote to kick { $player }?
-    .prompt = This player will not be able to rejoin the game.
+    .title = Voter pour exclure { $player } ?
+    .prompt = Ce joueur ne pourra pas rejoindre à nouveau la partie.
     .prompt-break-bots =
     { $bots ->
-        [one] Kicking the game admin will also kick 1 bot.
-       *[other] Kicking the game admin will also kick { $bots } bots.
+        [one] Exclure l'administrateur exclura aussi 1 bot.
+       *[other] Exclure l'administrateur exclura aussi { $bots } bots.
     }
-    .vote-start = Start Vote
-    .vote-for = Vote For
-    .vote-against = Vote Against
-    .vote-cancel = Abstain
+    .vote-start = Démarrer le Vote
+    .vote-for = Voter Pour
+    .vote-against = Voter Contre
+    .vote-cancel = S'abstenir
 
-notification-vote-kick-disabled = Vote kick is disabled on this server.
+notification-vote-kick-disabled = Le vote d'exclusion est désactivé sur ce serveur.
 
 ## GameTimerLogic
-label-paused = Paused
-label-max-speed = Max Speed
-label-replay-speed = { $percentage }% Speed
-label-replay-complete = { $percentage }% complete
+label-paused = En Pause
+label-max-speed = Vitesse Max
+label-replay-speed = Vitesse { $percentage }%
+label-replay-complete = { $percentage }% terminé
 
 ## LobbyLogic, InGameChatLogic
-label-chat-disabled = Chat Disabled
+label-chat-disabled = Chat Désactivé
 label-chat-availability =
     { $seconds ->
-        [one] Chat available in { $seconds } second...
-       *[other] Chat available in { $seconds } seconds...
+        [one] Chat disponible dans { $seconds } seconde...
+       *[other] Chat disponible dans { $seconds } secondes...
     }
 
 ## LobbyLogic, ServerListLogic
-label-bot-player = AI Player
+label-bot-player = Joueur IA
 
 ## IngameMenuLogic
 menu-ingame =
-    .leave = Leave
-    .abort = Abort Mission
-    .restart = Restart
-    .surrender = Surrender
-    .load-game = Load Game
-    .save-game = Save Game
-    .music = Music
-    .settings = Settings
-    .return-to-map = Return to map
-    .resume = Resume
-    .save-map = Save Map
-    .exit-map = Exit Map Editor
+    .leave = Quitter
+    .abort = Abandonner
+    .restart = Recommencer
+    .surrender = Se Rendre
+    .load-game = Charger
+    .save-game = Sauvegarder
+    .music = Musique
+    .settings = Paramètres
+    .return-to-map = Retour à la carte
+    .resume = Reprendre
+    .save-map = Sauvegarder Carte
+    .exit-map = Quitter l'Éditeur
 
 dialog-leave-mission =
-    .title = Leave Mission
-    .prompt = Leave this game and return to the menu?
-    .confirm = Leave
-    .cancel = Stay
+    .title = Quitter la Mission
+    .prompt = Quitter cette partie et retourner au menu ?
+    .confirm = Quitter
+    .cancel = Rester
 
 dialog-restart-mission =
-    .title = Restart
-    .prompt = Are you sure you want to restart?
-    .confirm = Restart
-    .cancel = Stay
+    .title = Recommencer
+    .prompt = Voulez-vous vraiment recommencer ?
+    .confirm = Recommencer
+    .cancel = Rester
 
 dialog-surrender =
-    .title = Surrender
-    .prompt = Are you sure you want to surrender?
-    .confirm = Surrender
-    .cancel = Stay
+    .title = Se Rendre
+    .prompt = Voulez-vous vraiment vous rendre ?
+    .confirm = Se Rendre
+    .cancel = Rester
 
 dialog-error-max-player =
-    .title = Error: Max player count exceeded
-    .prompt = There are too many players defined ({ $players }/{ $max }).
-    .confirm = Back
+    .title = Erreur : Nombre maximum de joueurs dépassé
+    .prompt = Trop de joueurs sont définis ({ $players }/{ $max }).
+    .confirm = Retour
 
 dialog-exit-map-editor =
-    .title = Exit Map Editor
-    .prompt-unsaved = Exit and lose all unsaved changes?
-    .prompt-deleted = The map may have been deleted outside the editor
-    .confirm-anyway = Exit anyway
-    .confirm = Exit
+    .title = Quitter l'Éditeur de Carte
+    .prompt-unsaved = Quitter et perdre tous les changements non sauvegardés ?
+    .prompt-deleted = La carte a peut-être été supprimée en dehors de l'éditeur
+    .confirm-anyway = Quitter quand même
+    .confirm = Quitter
 
 dialog-play-map-warning =
-    .title = Warning
-    .prompt = The map may have been deleted or contains
-    errors that prevent it from being loaded.
+    .title = Attention
+    .prompt = La carte peut avoir été supprimée ou contenir
+    des erreurs qui empêchent son chargement.
     .cancel = Okay
 
 dialog-exit-to-map-editor =
-    .title = Leave Mission
-    .prompt = Leave this game and return to the editor?
-    .confirm = Back To Editor
-    .cancel = Stay
+    .title = Quitter la Mission
+    .prompt = Quitter cette partie et retourner à l'éditeur ?
+    .confirm = Retour à l'Éditeur
+    .cancel = Rester
 
 ## IngamePowerBarLogic
 ## IngamePowerCounterLogic
-label-power-usage = Power Usage: { $usage }/{ $capacity }
-label-infinite-power = Infinite
+label-power-usage = Énergie : { $usage }/{ $capacity }
+label-infinite-power = Infinie
 
 ## IngameSiloBarLogic
 ## IngameCashCounterLogic
-label-silo-usage = Silo Usage: { $usage }/{ $capacity }
+label-silo-usage = Silos : { $usage }/{ $capacity }
 
 ## ObserverShroudSelectorLogic
 options-shroud-selector =
-    .all-players = All Players
-    .disable-shroud = Disable Shroud
-    .other = Other
+    .all-players = Tous les Joueurs
+    .disable-shroud = Désactiver Voile
+    .other = Autre
 
 ## ObserverStatsLogic
 options-observer-stats =
-    .none = Information: None
-    .basic = Basic
-    .economy = Economy
+    .none = Information : Aucune
+    .basic = Basique
+    .economy = Économie
     .production = Production
-    .support-powers = Support Powers
+    .support-powers = Pouvoirs de Soutien
     .combat = Combat
-    .army = Army
-    .earnings-graph = Earnings (graph)
-    .army-graph = Army (graph)
+    .army = Armée
+    .earnings-graph = Revenus (graphique)
+    .army-graph = Armée (graphique)
 
 ## WorldTooltipLogic
-label-unrevealed-terrain = Unrevealed Terrain
+label-unrevealed-terrain = Terrain Non Découvert
 
 ## DownloadPackageLogic
-label-downloading = Downloading { $title }
-label-fetching-mirror-list = Fetching list of mirrors...
-label-downloading-from = Downloading from { $host } { $received } { $suffix }
-label-downloading-from-progress = Downloading from { $host } { $received } / { $total } { $suffix } ({ $progress }%)
-label-unknown-host = unknown host
-label-download-failed = Download failed
-label-verifying-archive = Verifying archive...
-label-archive-validation-failed = Archive validation failed
-label-extracting-archive = Extracting...
-label-extracting-archive-entry = Extracting { $entry }
-label-archive-extraction-failed = Archive extraction failed
-label-mirror-selection-failed = Online mirror is not available. Please install from an original disc.
+label-downloading = Téléchargement de { $title }
+label-fetching-mirror-list = Récupération de la liste des miroirs...
+label-downloading-from = Téléchargement depuis { $host } { $received } { $suffix }
+label-downloading-from-progress = Téléchargement depuis { $host } { $received } / { $total } { $suffix } ({ $progress }%)
+label-unknown-host = hôte inconnu
+label-download-failed = Échec du téléchargement
+label-verifying-archive = Vérification de l'archive...
+label-archive-validation-failed = Échec de la validation de l'archive
+label-extracting-archive = Extraction...
+label-extracting-archive-entry = Extraction de { $entry }
+label-archive-extraction-failed = Échec de l'extraction de l'archive
+label-mirror-selection-failed = Le miroir en ligne n'est pas disponible. Veuillez installer depuis un disque original.
 
 ## InstallFromSourceLogic
-label-detecting-sources = Detecting drives
-label-checking-sources = Checking Sources
-label-searching-source-for = Searching for { $title }
-label-content-package-installation = Select which content packages you want to install:
-label-game-sources = Game Sources
-label-digital-installs = Digital Installs
-label-game-content-not-found = Game Content Not Found
-label-alternative-content-sources = Please insert or install one of the following content sources:
-label-installing-content = Installing Content
-label-copying-filename = Copying { $filename }
-label-copying-filename-progress = Copying { $filename } ({ $progress }%)
-label-installation-failed = Installation Failed
-label-check-install-log = Refer to install.log in the logs directory for details.
-label-extracting-filename = Extracting { $filename }
-label-extracting-filename-progress = Extracting { $filename } ({ $progress }%)
+label-detecting-sources = Détection des lecteurs
+label-checking-sources = Vérification des Sources
+label-searching-source-for = Recherche de { $title }
+label-content-package-installation = Sélectionnez les modules de contenu à installer :
+label-game-sources = Sources du Jeu
+label-digital-installs = Installations Numériques
+label-game-content-not-found = Contenu du Jeu Introuvable
+label-alternative-content-sources = Veuillez insérer ou installer l'une des sources de contenu suivantes :
+label-installing-content = Installation du Contenu
+label-copying-filename = Copie de { $filename }
+label-copying-filename-progress = Copie de { $filename } ({ $progress }%)
+label-installation-failed = Échec de l'Installation
+label-check-install-log = Consultez install.log dans le dossier des logs pour plus de détails.
+label-extracting-filename = Extraction de { $filename }
+label-extracting-filename-progress = Extraction de { $filename } ({ $progress }%)
 
 ## ModContentLogic
-button-manual-install = Manual Install
+button-manual-install = Installation Manuelle
 
 ## KickClientLogic
 dialog-kick-client =
-    .prompt = Kick { $player }?
+    .prompt = Exclure { $player } ?
 
 ## KickSpectatorsLogic
 dialog-kick-spectators =
     .prompt =
     { $count ->
-        [one] Are you sure you want to kick one spectator?
-       *[other] Are you sure you want to kick { $count } spectators?
+        [one] Voulez-vous vraiment exclure un spectateur ?
+       *[other] Voulez-vous vraiment exclure { $count } spectateurs ?
     }
 
 ## LobbyLogic
 options-slot-admin =
-    .add-bots = Add
-    .remove-bots = Remove
-    .configure-bots = Configure Bots
-    .teams-count = { $count } Teams
-    .humans-vs-bots = Humans vs Bots
-    .free-for-all = Free for all
-    .configure-teams = Configure Teams
+    .add-bots = Ajouter
+    .remove-bots = Retirer
+    .configure-bots = Configurer les Bots
+    .teams-count = { $count } Équipes
+    .humans-vs-bots = Humains vs Bots
+    .free-for-all = Chacun pour soi
+    .configure-teams = Configurer les Équipes
 
 ## LobbyLogic, InGameChatLogic
-button-general-chat = All
-button-team-chat = Team
+button-general-chat = Tous
+button-team-chat = Équipe
 
 ## LobbyOptionsLogic, MissionBrowserLogic
-label-not-available = Not Available
+label-not-available = Non Disponible
 
 ## LobbyUtils
 options-lobby-slot =
-    .slot = Slot
-    .open = Open
-    .closed = Closed
+    .slot = Emplacement
+    .open = Ouvert
+    .closed = Fermé
     .bots = Bots
-    .bots-disabled = Bots Disabled
+    .bots-disabled = Bots Désactivés
 
 ## MapPreviewLogic
-label-connecting = Connecting...
-label-downloading-map = Downloading { $size } kB
-label-downloading-map-progress = Downloading { $size } kB ({ $progress }%)
-button-retry-install = Retry Install
-button-retry-search = Retry Search
+label-connecting = Connexion...
+label-downloading-map = Téléchargement { $size } ko
+label-downloading-map-progress = Téléchargement { $size } ko ({ $progress }%)
+button-retry-install = Réessayer l'Installation
+button-retry-search = Réessayer la Recherche
 ## also MapChooserLogic
-label-created-by = Created by { $author }
+label-created-by = Créée par { $author }
 
 ## SpawnSelectorTooltipLogic
-label-disabled-spawn = Disabled spawn
-label-available-spawn = Available spawn
+label-disabled-spawn = Départ désactivé
+label-available-spawn = Départ disponible
 
 ## DisplaySettingsLogic
 options-camera =
-    .close = Close
-    .medium = Medium
-    .far = Far
-    .furthest = Furthest
+    .close = Proche
+    .medium = Moyenne
+    .far = Éloignée
+    .furthest = Max
 
 options-display-mode =
-    .windowed = Windowed
-    .legacy-fullscreen = Fullscreen (Legacy)
-    .fullscreen = Fullscreen
+    .windowed = Fenêtré
+    .legacy-fullscreen = Plein Écran (Ancien)
+    .fullscreen = Plein Écran
 
-label-video-display-index = Display { $number }
+label-video-display-index = Écran { $number }
 
 options-status-bars =
     .standard = Standard
-    .show-on-damage = Show On Damage
-    .always-show = Always Show
+    .show-on-damage = Si Endommagé
+    .always-show = Toujours
 
 options-target-lines =
-    .automatic = Automatic
-    .manual = Manual
-    .disabled = Disabled
+    .automatic = Automatique
+    .manual = Manuel
+    .disabled = Désactivé
 
-checkbox-frame-limiter = Enable Frame Limiter ({ $fps } FPS)
+checkbox-frame-limiter = Activer le Limiteur ({ $fps } FPS)
 
 ## HotkeysSettingsLogic
-label-original-notice = The default is "{ $key }"
-label-duplicate-notice = This is already used for "{ $key }" in the { $context } context
-hotkey-context-any = Any
+label-original-notice = Par défaut : "{ $key }"
+label-duplicate-notice = Déjà utilisé pour "{ $key }" dans le contexte { $context }
+hotkey-context-any = Tout
 
 ## InputSettingsLogic
 options-mouse-scroll-type =
-    .disabled = Disabled
+    .disabled = Désactivé
     .standard = Standard
-    .inverted = Inverted
+    .inverted = Inversé
     .joystick = Joystick
 
 ## InputSettingsLogic, IntroductionPromptLogic
 options-control-scheme =
-    .classic = Classic
-    .modern = Modern
+    .classic = Classique
+    .modern = Moderne
 
 ## SettingsLogic
 dialog-settings-save =
-    .title = Restart Required
-    .prompt = Some changes will not be applied until
-    the game is restarted.
-    .cancel = Continue
+    .title = Redémarrage Requis
+    .prompt = Certains changements ne seront appliqués qu'après
+    le redémarrage du jeu.
+    .cancel = Continuer
 
 dialog-settings-restart =
-    .title = Restart Now?
-    .prompt = Some changes will not be applied until
-    the game is restarted. Restart now?
-    .confirm = Restart Now
-    .cancel = Restart Later
+    .title = Redémarrer Maintenant ?
+    .prompt = Certains changements ne seront appliqués qu'après
+    le redémarrage du jeu. Redémarrer maintenant ?
+    .confirm = Redémarrer Maintenant
+    .cancel = Redémarrer Plus Tard
 
 dialog-settings-reset =
-    .title = Reset { $panel }
-    .prompt = Are you sure you want to reset
-    all settings in this panel?
-    .confirm = Reset
-    .cancel = Cancel
+    .title = Réinitialiser { $panel }
+    .prompt = Voulez-vous vraiment réinitialiser
+    tous les paramètres de ce panneau ?
+    .confirm = Réinitialiser
+    .cancel = Annuler
 
 ## AssetBrowserLogic
-label-all-packages = All Packages
+label-all-packages = Tous les Modules
 label-length-in-seconds = { $length } sec
 
 ## ConnectionLogic
-label-connecting-to-endpoint = Connecting to { $endpoint }...
-label-could-not-connect-to-target = Could not connect to { $target }
-label-unknown-error = Unknown error
-label-password-required = Password Required
-label-connection-failed = Connection Failed
-notification-mod-switch-failed = Failed to switch mod.
+label-connecting-to-endpoint = Connexion à { $endpoint }...
+label-could-not-connect-to-target = Impossible de se connecter à { $target }
+label-unknown-error = Erreur inconnue
+label-password-required = Mot de Passe Requis
+label-connection-failed = Échec de la Connexion
+notification-mod-switch-failed = Échec du changement de mod.
 
 ## GameSaveBrowserLogic
 dialog-rename-save =
-    .title = Rename Save
-    .prompt = Enter a new file name:
-    .confirm = Rename
+    .title = Renommer la Sauvegarde
+    .prompt = Entrez un nouveau nom de fichier :
+    .confirm = Renommer
 
 dialog-delete-save =
-    .title = Delete selected game save?
-    .prompt = Delete '{ $save }'.
-    .confirm = Delete
+    .title = Supprimer la sauvegarde sélectionnée ?
+    .prompt = Supprimer '{ $save }'.
+    .confirm = Supprimer
 
 dialog-delete-all-saves =
-    .title = Delete all game saves?
+    .title = Supprimer toutes les sauvegardes ?
     .prompt =
     { $count ->
-        [one] Delete { $count } save.
-       *[other] Delete { $count } saves.
+        [one] Supprimer { $count } sauvegarde.
+       *[other] Supprimer { $count } sauvegardes.
     }
-    .confirm = Delete All
+    .confirm = Tout Supprimer
 
-notification-save-deletion-failed = Failed to delete save file '{ $savePath }'. See the logs for details.
+notification-save-deletion-failed = Échec de la suppression du fichier de sauvegarde '{ $savePath }'. Voir les logs pour plus de détails.
 
 dialog-overwrite-save =
-    .title = Overwrite saved game?
-    .prompt = Overwrite { $file }?
-    .confirm = Overwrite
+    .title = Écraser la partie sauvegardée ?
+    .prompt = Écraser { $file } ?
+    .confirm = Écraser
 
 ## MainMenuLogic
-label-loading-news = Loading news
-label-news-retrieval-failed = Failed to retrieve news: { $message }
-label-news-parsing-failed = Failed to parse news: { $message }
-label-author-datetime = by { $author } at { $datetime }
+label-loading-news = Chargement des actualités
+label-news-retrieval-failed = Échec de la récupération des actualités : { $message }
+label-news-parsing-failed = Échec de l'analyse des actualités : { $message }
+label-author-datetime = par { $author } le { $datetime }
 
 ## MapChooserLogic
-label-all-maps = All Maps
-label-no-matches = No matches
+label-all-maps = Toutes les Cartes
+label-no-matches = Aucun résultat
 label-player-count =
     { $players ->
-        [one] { $players } Player
-       *[other] { $players } Players
+        [one] { $players } Joueur
+       *[other] { $players } Joueurs
     }
-label-map-size-huge = (Huge)
-label-map-size-large = (Large)
-label-map-size-medium = (Medium)
-label-map-size-small = (Small)
+label-map-size-huge = (Énorme)
+label-map-size-large = (Grande)
+label-map-size-medium = (Moyenne)
+label-map-size-small = (Petite)
 label-map-searching-count =
     { $count ->
-        [one] Searching the OpenRA Resource Center for { $count } map...
-       *[other] Searching the OpenRA Resource Center for { $count } maps...
+        [one] Recherche de { $count } carte sur le Centre de Ressources OpenRA...
+       *[other] Recherche de { $count } cartes sur le Centre de Ressources OpenRA...
     }
 label-map-unavailable-count =
     { $count ->
-        [one] { $count } map was not found on the OpenRA Resource Center
-       *[other] { $count } maps were not found on the OpenRA Resource Center
+        [one] { $count } carte introuvable sur le Centre de Ressources OpenRA
+       *[other] { $count } cartes introuvables sur le Centre de Ressources OpenRA
     }
 
-notification-map-deletion-failed = Failed to delete map '{ $map }'. See the debug.log file for details.
+notification-map-deletion-failed = Échec de la suppression de la carte '{ $map }'. Voir debug.log pour plus de détails.
 
 dialog-delete-map =
-    .title = Delete map
-    .prompt = Delete the map '{ $title }'?
-    .confirm = Delete
+    .title = Supprimer la carte
+    .prompt = Supprimer la carte '{ $title }' ?
+    .confirm = Supprimer
 
 dialog-delete-all-maps =
-    .title = Delete maps
-    .prompt = Delete all maps on this page?
-    .confirm = Delete
+    .title = Supprimer les cartes
+    .prompt = Supprimer toutes les cartes de cette page ?
+    .confirm = Supprimer
 
 options-order-maps =
-    .player-count = Players
-    .title = Title
+    .player-count = Joueurs
+    .title = Titre
     .date = Date
-    .size = Size
+    .size = Taille
 
 ## MissionBrowserLogic
 dialog-no-video =
-    .title = Video not installed
-    .prompt = The game videos can be installed from the
-    "Manage Content" menu in the mod chooser.
-    .cancel = Back
+    .title = Vidéo non installée
+    .prompt = Les vidéos du jeu peuvent être installées depuis le
+    menu "Gérer le Contenu" du sélecteur de mod.
+    .cancel = Retour
 
 dialog-cant-play-video =
-    .title = Unable to play video
-    .prompt = Something went wrong during video playback.
-    .cancel = Back
+    .title = Impossible de lire la vidéo
+    .prompt = Un problème est survenu pendant la lecture de la vidéo.
+    .cancel = Retour
 
 ## MusicPlayerLogic
-label-sound-muted = Audio has been muted in settings.
-label-no-song-playing = No song is playing
+label-sound-muted = Le son a été coupé dans les paramètres.
+label-no-song-playing = Aucune piste en cours de lecture
 
 ## MuteHotkeyLogic
-label-audio-muted = Audio muted.
-label-audio-unmuted = Audio unmuted.
+label-audio-muted = Son coupé.
+label-audio-unmuted = Son réactivé.
 
 ## PlayerProfileLogic
-label-loading-player-profile = Loading player profile...
-label-loading-player-profile-failed = Failed to load player profile.
+label-loading-player-profile = Chargement du profil joueur...
+label-loading-player-profile-failed = Échec du chargement du profil joueur.
 
 ## ProductionTooltipLogic, EncyclopediaLogic
-label-requires = Requires { $prerequisites }.
+label-requires = Nécessite { $prerequisites }.
 
 ## ReplayBrowserLogic
-label-duration = Duration: { $time }
+label-duration = Durée : { $time }
 
 options-replay-type =
-    .singleplayer = Singleplayer
-    .multiplayer = Multiplayer
+    .singleplayer = Solo
+    .multiplayer = Multijoueur
 
 options-winstate =
-    .victory = Victory
-    .defeat = Defeat
+    .victory = Victoire
+    .defeat = Défaite
 
 options-replay-date =
-    .today = Today
-    .last-week = Last 7 days
-    .last-fortnight = Last 14 days
-    .last-month = Last 30 days
+    .today = Aujourd'hui
+    .last-week = 7 derniers jours
+    .last-fortnight = 14 derniers jours
+    .last-month = 30 derniers jours
 
 options-replay-duration =
-    .very-short = Under 5 min
-    .short = Short (10 min)
-    .medium = Medium (30 min)
-    .long = Long (60+ min)
+    .very-short = Moins de 5 min
+    .short = Courte (10 min)
+    .medium = Moyenne (30 min)
+    .long = Longue (60+ min)
 
 dialog-rename-replay =
-    .title = Rename Replay
-    .prompt = Enter a new file name:
-    .confirm = Rename
+    .title = Renommer le Replay
+    .prompt = Entrez un nouveau nom de fichier :
+    .confirm = Renommer
 
 dialog-delete-replay =
-    .title = Delete selected replay?
-    .prompt = Delete replay { $replay }?
-    .confirm = Delete
+    .title = Supprimer le replay sélectionné ?
+    .prompt = Supprimer le replay { $replay } ?
+    .confirm = Supprimer
 
 dialog-delete-all-replays =
-    .title = Delete all selected replays?
+    .title = Supprimer tous les replays sélectionnés ?
     .prompt =
     { $count ->
-        [one] Delete { $count } replay.
-       *[other] Delete { $count } replays.
+        [one] Supprimer { $count } replay.
+       *[other] Supprimer { $count } replays.
     }
-    .confirm = Delete All
+    .confirm = Tout Supprimer
 
-notification-replay-deletion-failed = Failed to delete replay file '{ $file }'. See the debug.log file for details.
+notification-replay-deletion-failed = Échec de la suppression du fichier replay '{ $file }'. Voir debug.log pour plus de détails.
 
 ## ReplayUtils
--incompatible-replay-recorded = It was recorded with
+-incompatible-replay-recorded = Il a été enregistré avec
 
 dialog-incompatible-replay =
-    .title = Incompatible Replay
-    .prompt = Replay metadata could not be read.
+    .title = Replay Incompatible
+    .prompt = Les métadonnées du replay n'ont pas pu être lues.
     .confirm = OK
-    .prompt-unknown-version = { -incompatible-replay-recorded } an unknown version.
-    .prompt-unknown-mod = { -incompatible-replay-recorded } an unknown mod.
-    .prompt-unavailable-mod = { -incompatible-replay-recorded } an unavailable mod: { $mod }.
-    .prompt-incompatible-version = { -incompatible-replay-recorded } an incompatible version:
+    .prompt-unknown-version = { -incompatible-replay-recorded } une version inconnue.
+    .prompt-unknown-mod = { -incompatible-replay-recorded } un mod inconnu.
+    .prompt-unavailable-mod = { -incompatible-replay-recorded } un mod indisponible : { $mod }.
+    .prompt-incompatible-version = { -incompatible-replay-recorded } une version incompatible :
     { $version }.
-    .prompt-unavailable-map = { -incompatible-replay-recorded } an unavailable map:
+    .prompt-unavailable-map = { -incompatible-replay-recorded } une carte indisponible :
     { $map }.
 
 # SelectUnitsByTypeHotkeyLogic
-nothing-selected = Nothing selected.
+nothing-selected = Rien de sélectionné.
 
 ## SelectUnitsByTypeHotkeyLogic, SelectAllUnitsHotkeyLogic
 selected-units-across-screen =
     { $units ->
-        [one] Selected one unit across screen.
-       *[other] Selected { $units } units across screen.
+        [one] Une unité sélectionnée à l'écran.
+       *[other] { $units } unités sélectionnées à l'écran.
     }
 
 selected-units-across-map =
     { $units ->
-        [one] Selected one unit across map.
-       *[other] Selected { $units } units across map.
+        [one] Une unité sélectionnée sur la carte.
+       *[other] { $units } unités sélectionnées sur la carte.
     }
 
 ## ServerCreationLogic
-label-internet-server-nat-A = Internet Server (UPnP/NAT-PMP
-label-internet-server-nat-B-enabled = Enabled
-label-internet-server-nat-B-not-supported = Not Supported
-label-internet-server-nat-B-disabled = Disabled
-label-internet-server-nat-C = ):
+label-internet-server-nat-A = Serveur Internet (UPnP/NAT-PMP
+label-internet-server-nat-B-enabled = Activé
+label-internet-server-nat-B-not-supported = Non Supporté
+label-internet-server-nat-B-disabled = Désactivé
+label-internet-server-nat-C = ) :
 
-label-local-server = Local Server:
+label-local-server = Serveur Local :
 
 dialog-server-creation-failed =
-    .prompt = Could not listen on port { $port }.
-    .prompt-port-used = Check if the port is already being used.
-    .prompt-error = Error is: "{ $message }" ({ $code }).
-    .title = Server Creation Failed
-    .cancel = Back
+    .prompt = Impossible d'écouter sur le port { $port }.
+    .prompt-port-used = Vérifiez si le port est déjà utilisé.
+    .prompt-error = Erreur : "{ $message }" ({ $code }).
+    .title = Échec de la Création du Serveur
+    .cancel = Retour
 
 ## ServerListLogic
 label-players-online-count =
     { $players ->
-        [one] { $players } Player Online
-       *[other] { $players } Players Online
+        [one] { $players } Joueur en Ligne
+       *[other] { $players } Joueurs en Ligne
     }
 
-label-search-status-failed = Failed to query server list.
-label-search-status-no-games = No games found. Try changing filters.
-label-no-server-selected = No Server Selected
+label-search-status-failed = Échec de la recherche de la liste des serveurs.
+label-search-status-no-games = Aucune partie trouvée. Essayez de changer les filtres.
+label-no-server-selected = Aucun Serveur Sélectionné
 
-label-map-status-searching = Searching...
-label-map-classification-unknown = Unknown Map
+label-map-status-searching = Recherche...
+label-map-classification-unknown = Carte Inconnue
 
 label-players-count =
     { $players ->
-        [0] No Players
-        [one] One Player
-       *[other] { $players } Players
+        [0] Aucun Joueur
+        [one] Un Joueur
+       *[other] { $players } Joueurs
     }
 
 label-bots-count =
     { $bots ->
-        [0] No Bots
-        [one] One Bot
+        [0] Aucun Bot
+        [one] Un Bot
        *[other] { $bots } Bots
     }
 
 ## ServerListLogic, ReplayBrowserLogic, ObserverShroudSelectorLogic
-label-players = Players
+label-players = Joueurs
 
 ## ServerListLogic, GameInfoStatsLogic
-label-spectators = Spectators
+label-spectators = Spectateurs
 label-spectators-count =
     { $spectators ->
-        [0] No Spectators
-        [one] One Spectator
-       *[other] { $spectators } Spectators
+        [0] Aucun Spectateur
+        [one] Un Spectateur
+       *[other] { $spectators } Spectateurs
     }
 
 ## ServerlistLogic, GameInfoStatsLogic, ObserverShroudSelectorLogic, SpawnSelectorTooltipLogic, ReplayBrowserLogic
-label-team-name = Team { $team }
-label-no-team = No Team
+label-team-name = Équipe { $team }
+label-no-team = Aucune Équipe
 
-label-playing = Playing
-label-waiting = Waiting
+label-playing = En jeu
+label-waiting = En attente
 
 label-other-players-count =
     { $players ->
-        [one] One other player
-       *[other] { $players } other players
+        [one] Un autre joueur
+       *[other] { $players } autres joueurs
     }
 
 label-in-progress-for =
     { $minutes ->
-        [0] In progress for less than a minute.
-        [one] In progress for { $minutes } minute.
-       *[other] In progress for { $minutes } minutes.
+        [0] En cours depuis moins d'une minute.
+        [one] En cours depuis { $minutes } minute.
+       *[other] En cours depuis { $minutes } minutes.
     }
 
-label-password-protected = Password protected
-label-waiting-for-players = Waiting for players
-label-server-shutting-down = Server shutting down
-label-unknown-server-state = Unknown server state
+label-password-protected = Protégé par mot de passe
+label-waiting-for-players = En attente de joueurs
+label-server-shutting-down = Serveur en cours d'arrêt
+label-unknown-server-state = État du serveur inconnu
 
 ## Game
-notification-saved-screenshot = Saved screenshot { $filename }
+notification-saved-screenshot = Capture d'écran sauvegardée { $filename }
 
 ## ChatCommands
-notification-invalid-command = { $name } is not a valid command.
+notification-invalid-command = { $name } n'est pas une commande valide.
 
 ## DebugVisualizationCommands
-description-combat-geometry = toggles combat geometry overlay.
-description-render-geometry = toggles render geometry overlay.
-description-screen-map-overlay = toggles screen map overlay.
-description-depth-buffer = toggles depth buffer overlay.
-description-actor-tags-overlay = toggles actor tags overlay.
+description-combat-geometry = bascule l'affichage de la géométrie de combat.
+description-render-geometry = bascule l'affichage de la géométrie de rendu.
+description-screen-map-overlay = bascule l'affichage de la carte à l'écran.
+description-depth-buffer = bascule l'affichage du tampon de profondeur.
+description-actor-tags-overlay = bascule l'affichage des étiquettes d'acteurs.
 
 ## DevCommands
-notification-cheats-disabled = Cheats are disabled.
-notification-invalid-cash-amount = Invalid cash amount.
-description-toggle-visibility = toggles visibility checks and minimap.
-description-give-cash = gives the default or specified amount of money.
-description-give-cash-all = gives the default or specified amount of money to all players and AI.
-description-instant-building = toggles instant building.
-description-build-anywhere = toggles the ability to build anywhere.
-description-unlimited-power = toggles infinite power.
-description-enable-tech = toggles the ability to build everything.
-description-fast-charge = toggles near-instant support power charging.
-description-dev-cheat-all = toggles all cheats and gives you some cash for your trouble.
-description-dev-crash = crashes the game.
-description-levelup-actor = adds a specified number of levels to the selected actors.
-description-player-experience = adds a specified amount of player experience to the owner(s) of selected actors.
-description-power-outage = causes a 5-second power outage for the owner(s) of selected actors.
-description-kill-selected-actors = kills selected actors.
-description-dispose-selected-actors = disposes selected actors.
+notification-cheats-disabled = Les astuces sont désactivées.
+notification-invalid-cash-amount = Montant invalide.
+description-toggle-visibility = bascule les vérifications de visibilité et la mini-carte.
+description-give-cash = donne le montant d'argent par défaut ou spécifié.
+description-give-cash-all = donne le montant d'argent par défaut ou spécifié à tous les joueurs et IA.
+description-instant-building = bascule la construction instantanée.
+description-build-anywhere = bascule la capacité à construire n'importe où.
+description-unlimited-power = bascule l'énergie infinie.
+description-enable-tech = bascule la capacité à tout construire.
+description-fast-charge = bascule la charge quasi-instantanée des pouvoirs de soutien.
+description-dev-cheat-all = bascule toutes les astuces et donne un peu d'argent pour la peine.
+description-dev-crash = fait planter le jeu.
+description-levelup-actor = ajoute un nombre spécifié de niveaux aux acteurs sélectionnés.
+description-player-experience = ajoute un montant spécifié d'expérience joueur au(x) propriétaire(s) des acteurs sélectionnés.
+description-power-outage = provoque une panne d'énergie de 5 secondes pour le(s) propriétaire(s) des acteurs sélectionnés.
+description-kill-selected-actors = tue les acteurs sélectionnés.
+description-dispose-selected-actors = supprime les acteurs sélectionnés.
 
 ## HelpCommands
-notification-available-commands = Here are the available commands:
-description-no-description = no description available.
-description-help-description = provides useful info about various commands.
+notification-available-commands = Voici les commandes disponibles :
+description-no-description = aucune description disponible.
+description-help-description = fournit des informations utiles sur diverses commandes.
 
 ## PlayerCommands
-description-pause-description = pause or unpause the game.
-description-surrender-description = self-destruct everything and lose the game.
+description-pause-description = met en pause ou reprend la partie.
+description-surrender-description = autodétruit tout et fait perdre la partie.
 
 ## DeveloperMode
-notification-cheat-used = Cheat used: { $cheat } by { $player }{ $suffix }.
+notification-cheat-used = Astuce utilisée : { $cheat } par { $player }{ $suffix }.
 
 ## CustomTerrainDebugOverlay
-description-custom-terrain-debug-overlay = toggles the custom terrain debug overlay.
+description-custom-terrain-debug-overlay = bascule l'affichage de débogage du terrain personnalisé.
 
 ## CellTriggerOverlay
-description-cell-triggers-overlay = toggles the script triggers overlay.
+description-cell-triggers-overlay = bascule l'affichage des déclencheurs de script.
 
 ## ExitsDebugOverlay
-description-exits-overlay = Displays exits for factories.
+description-exits-overlay = Affiche les sorties des usines.
 
 ## HierarchicalPathFinderOverlay
-description-hpf-debug-overlay = toggles the hierarchical pathfinder overlay.
+description-hpf-debug-overlay = bascule l'affichage du calculateur de chemin hiérarchique.
 
 ## PathFinderOverlay
-description-path-debug-overlay = toggles a visualization of path searching.
+description-path-debug-overlay = bascule une visualisation de la recherche de chemin.
 
 ## TerrainGeometryOverlay
-description-terrain-geometry-overlay = toggles the terrain geometry overlay.
+description-terrain-geometry-overlay = bascule l'affichage de la géométrie du terrain.
 
 ## MapOptions, MissionBrowserLogic
 options-game-speed =
-    .slowest = Slowest
-    .slower = Slower
-    .normal = Normal
-    .fast = Fast
-    .faster = Faster
-    .fastest = Fastest
+    .slowest = Très Lente
+    .slower = Plus Lente
+    .normal = Normale
+    .fast = Rapide
+    .faster = Plus Rapide
+    .fastest = Très Rapide
 
 ## TimeLimitManager
 options-time-limit =
-    .no-limit = No limit
+    .no-limit = Sans limite
     .options =
         { $minutes ->
             [one] { $minutes } minute
            *[other] { $minutes } minutes
         }
 
-notification-time-limit-expired = Time limit has expired.
+notification-time-limit-expired = La limite de temps est écoulée.
 
 ## EditorActorBrush
-notification-added-actor = Added { $name } ({ $id })
+notification-added-actor = { $name } ajouté ({ $id })
 
 ## EditorCopyPasteBrush
 notification-copied-tiles =
     { $amount ->
-       [one] Copied one tile
-      *[other] Copied { $amount } tiles
+       [one] Une tuile copiée
+      *[other] { $amount } tuiles copiées
     }
 
 ## EditorDefaultBrush
-notification-selected-area = Selected area { $x },{ $y } ({ $width },{ $height })
-notification-removed-area = Removed area { $x },{ $y } ({ $width },{ $height })
-notification-selected-actor = Selected actor { $id }
-notification-cleared-selection = Cleared selection
-notification-removed-actor = Removed { $name } ({ $id })
-notification-removed-resource = Removed { $type }
-notification-moved-actor = Moved { $id } from { $x1 },{ $y1 } to { $x2 },{ $y2 }
+notification-selected-area = Zone sélectionnée { $x },{ $y } ({ $width },{ $height })
+notification-removed-area = Zone retirée { $x },{ $y } ({ $width },{ $height })
+notification-selected-actor = Acteur sélectionné { $id }
+notification-cleared-selection = Sélection effacée
+notification-removed-actor = { $name } retiré ({ $id })
+notification-removed-resource = { $type } retiré
+notification-moved-actor = { $id } déplacé de { $x1 },{ $y1 } vers { $x2 },{ $y2 }
 
 ## EditorResourceBrush
 notification-added-resource =
     { $amount ->
-       [one] Added one cell of { $type }
-      *[other] Added { $amount } cells of { $type }
+       [one] Une cellule de { $type } ajoutée
+      *[other] { $amount } cellules de { $type } ajoutées
     }
 
 ## EditorTileBrush
-notification-added-tile = Added tile { $id }
-notification-filled-tile = Filled with tile { $id }
+notification-added-tile = Tuile { $id } ajoutée
+notification-filled-tile = Rempli avec la tuile { $id }
 
 ## EditorMarkerLayerBrush
 notification-added-marker-tiles =
     { $amount ->
-       [one] Added one marker tile of type { $type }
-      *[other] Added { $amount } marker tiles of type { $type }
+       [one] Une tuile repère de type { $type } ajoutée
+      *[other] { $amount } tuiles repères de type { $type } ajoutées
     }
 notification-removed-marker-tiles =
     { $amount ->
-       [one] Removed one marker tile
-      *[other] Removed { $amount } marker tiles
+       [one] Une tuile repère retirée
+      *[other] { $amount } tuiles repères retirées
     }
-notification-cleared-selected-marker-tiles = Cleared { $amount } marker tiles of type { $type }
-notification-cleared-all-marker-tiles = Cleared { $amount } marker tiles
+notification-cleared-selected-marker-tiles = { $amount } tuiles repères de type { $type } effacées
+notification-cleared-all-marker-tiles = { $amount } tuiles repères effacées
 
 ## EditorActionManager
-notification-opened = Opened
+notification-opened = Ouvert
 
 ## MapOverlaysLogic
 mirror-mode =
-    .none = None
-    .flip = Flip
-    .rotate = Rotate
+    .none = Aucun
+    .flip = Retourner
+    .rotate = Pivoter
 
 ## ActorEditLogic
-notification-edited-actor = Edited { $name } ({ $id })
-notification-edited-actor-id = Edited { $name } ({ $old-id }-> { $new-id })
+notification-edited-actor = { $name } modifié ({ $id })
+notification-edited-actor-id = { $name } modifié ({ $old-id } -> { $new-id })
 
 ## ConquestVictoryConditions, StrategicVictoryConditions
-notification-player-is-victorious = { $player } is victorious.
-notification-player-is-defeated = { $player } is defeated.
+notification-player-is-victorious = { $player } est victorieux.
+notification-player-is-defeated = { $player } est vaincu.
 
 ## OrderManager
-notification-desync-compare-logs = Out of sync in frame { $frame }.
-    Compare syncreport.log with other players.
+notification-desync-compare-logs = Désynchronisation à la trame { $frame }.
+    Comparez syncreport.log avec les autres joueurs.
 
 ## SupportPowerTimerWidget
-support-power-timer = { $player }'s { $support-power }: { $time }
+support-power-timer = { $support-power } de { $player } : { $time }
 
 ## WidgetUtils
-label-win-state-won = Won
-label-win-state-lost = Lost
+label-win-state-won = Gagné
+label-win-state-lost = Perdu
 
 ## Player
 enumerated-bot-name =
@@ -880,7 +880,7 @@ keycode-modifier =
     .meta = Meta
     .cmd = Cmd
     .shift = Shift
-    .none = None
+    .none = Aucun
 
 ## KeycodeExts
 keycode =

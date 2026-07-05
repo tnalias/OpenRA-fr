@@ -1,152 +1,152 @@
 ## campaign.lua
-objective-failed = Objective Failed
-objective-completed = Objective Completed
+objective-failed = Objectif Échoué
+objective-completed = Objectif Accompli
 
-primary = Primary
-secondary = Secondary
+primary = Principal
+secondary = Secondaire
 
-new-primary-objective = New Primary Objective
-new-secondary-objective = New Secondary Objective
+new-primary-objective = Nouvel Objectif Principal
+new-secondary-objective = Nouvel Objectif Secondaire
 
 mentat = Mentat
 
 ## atreides-01ab, atreides03ab, harkonnen-01a, ordos-05
-harvested-resources = Harvested resources: { $harvested }/{ $goal }
-harvest-spice = Harvest { $spice } Solaris worth of Spice.
-not-enough-silos = We don't have enough silo space to store the required amount of Spice!
+harvested-resources = Ressources moissonnées : { $harvested }/{ $goal }
+harvest-spice = Moissonnez { $spice } Solaris d'Épice.
+not-enough-silos = Nous n'avons pas assez d'espace de stockage pour la quantité d'Épice requise !
 
 ## atreides-01ab, harkonnen-01ab, ordos01ab
-build-concrete = Build a concrete foundation before placing structures.
-build-wind-trap = Build a Wind Trap to generate power.
-build-refinery = Build a Refinery to collect Spice.
-build-silo = Build a Silo to store additional Spice.
+build-concrete = Construisez une fondation de béton avant de placer des structures.
+build-wind-trap = Construisez un Piège à Vent pour générer de l'énergie.
+build-refinery = Construisez une Raffinerie pour collecter l'Épice.
+build-silo = Construisez un Silo pour stocker davantage d'Épice.
 
 ## atreides-01ab, ordos01a, ordos-03ab
-eliminate-harkonnen-units-reinforcements = Eliminate all Harkonnen units and reinforcements in the area.
+eliminate-harkonnen-units-reinforcements = Éliminez toutes les unités et renforts Harkonnen dans la zone.
 
 ## atreides-02a, atreides-04, atreides-05, ordos-02ab, ordos-03ab, ordos-04, ordos-06a
-harkonnen-annihilated = The Harkonnen have been annihilated!
+harkonnen-annihilated = Les Harkonnen ont été anéantis !
 
 ## atreides-02a, ordos02ab
-destroy-harkonnen-forces = Destroy all Harkonnen forces.
+destroy-harkonnen-forces = Détruisez toutes les forces Harkonnen.
 
 ## atreides-02b, atreides-03b, harkonnen-05, harkonnen-06ab, harkonnen-08
-ordos-annihilated = The Ordos have been annihilated!
+ordos-annihilated = Les Ordos ont été anéantis !
 
 ## atreides-02b, atreides-03b, harkonnen-03ab, ordos-03a
-upgrade-barracks-light-factory = Upgrade the Barracks and Light Factory to enable advanced unit production.
+upgrade-barracks-light-factory = Améliorez la Caserne et l'Usine de Véhicules Légers pour permettre la production d'unités avancées.
 
 ## atreides-02b
-eliminate-ordos-units-reinforcements = Eliminate all Ordos forces and reinforcements in the area.
+eliminate-ordos-units-reinforcements = Éliminez toutes les forces et renforts Ordos dans la zone.
 
 ## atreides-04, ordos-04, ordos-06a
-destroy-harkonnen = Destroy the Harkonnen.
+destroy-harkonnen = Détruisez les Harkonnen.
 
 ## atreides-04
-fremen-leader = Fremen Leader
-sietch-integrity = Sietch structural integrity: { $integrity }%
-protect-fremen-sietch = Protect the Fremen Sietch.
-keep-sietch-intact = Keep the Sietch { $integrity }% intact!
-fremen-sietch-southeast = Fremen Sietch detected to the southeast.
-harkonnen-units-approaching = Harkonnen units approaching!
-sietch-destroyed = Sietch destroyed!
-fremen-sietch-under-attack = The Fremen Sietch is under attack!
+fremen-leader = Chef Fremen
+sietch-integrity = Intégrité structurelle du Sietch : { $integrity }%
+protect-fremen-sietch = Protégez le Sietch Fremen.
+keep-sietch-intact = Gardez le Sietch intact à { $integrity }% !
+fremen-sietch-southeast = Sietch Fremen détecté au sud-est.
+harkonnen-units-approaching = Unités Harkonnen en approche !
+sietch-destroyed = Sietch détruit !
+fremen-sietch-under-attack = Le Sietch Fremen est attaqué !
 
 ## atreides-05, harkonnen-06ab, harkonnen09ab
-smugglers-annihilated = The Smugglers have been annihilated!
+smugglers-annihilated = Les Contrebandiers ont été anéantis !
 
 ## atreides-05
-incoming-mercenary-force = Hostile mercenary force incoming.
-contraband-has-arrived = The contraband has arrived!
-contraband-confiscated = Contraband has arrived and been confiscated.
-contraband-not-confiscated = The Smuggler contraband has arrived, but confiscation is impossible due to the heavy defenses of the Starport.
-contraband-arrives-in = The contraband arriving in { $time }
-capture-barracks-sietch-tabr = Capture the Barracks at Sietch Tabr.
-annihilate-harkonnen-units-reinforcements = Annihilate all Harkonnen reinforcements.
-capture-smuggler-starport-confiscate-contraband = Capture the Smuggler Starport and
-    confiscate the contraband.
-contraband-approaching-starport-north-in = The contraband is approaching the Starport to the north in { $time }
-starport-destroyed-no-contraband = Starport destroyed! Contraband cannot land.
-do-not-destroy-starport = Do not destroy the Starport!
-defend-captured-starport = Defend the captured Starport.
-do-not-destroy-barracks = Do not destroy the Barracks!
-hostages-released = Hostages released!
-stay-away-from-starport = Stay away from our Starport.
-smuggler-leader = Smuggler Leader.
-were-warned-will-pay = You were warned. Now you will pay.
-destroy-smugglers-mercenaries = Destroy the Smugglers and their mercenaries.
-capture-harkonnen-barracks-release-hostages = Capture the Harkonnen barracks to release the hostages.
+incoming-mercenary-force = Force mercenaire hostile en approche.
+contraband-has-arrived = La contrebande est arrivée !
+contraband-confiscated = La contrebande est arrivée et a été confisquée.
+contraband-not-confiscated = La contrebande des Contrebandiers est arrivée, mais la confiscation est impossible en raison des défenses importantes du Spatioport.
+contraband-arrives-in = La contrebande arrive dans { $time }
+capture-barracks-sietch-tabr = Capturez la Caserne de Sietch Tabr.
+annihilate-harkonnen-units-reinforcements = Anéantissez tous les renforts Harkonnen.
+capture-smuggler-starport-confiscate-contraband = Capturez le Spatioport des Contrebandiers et
+    confisquez la contrebande.
+contraband-approaching-starport-north-in = La contrebande approche du Spatioport au nord dans { $time }
+starport-destroyed-no-contraband = Spatioport détruit ! La contrebande ne peut pas atterrir.
+do-not-destroy-starport = Ne détruisez pas le Spatioport !
+defend-captured-starport = Défendez le Spatioport capturé.
+do-not-destroy-barracks = Ne détruisez pas la Caserne !
+hostages-released = Otages libérés !
+stay-away-from-starport = Restez à l'écart de notre Spatioport.
+smuggler-leader = Chef Contrebandier.
+were-warned-will-pay = Vous étiez prévenus. Vous allez payer.
+destroy-smugglers-mercenaries = Détruisez les Contrebandiers et leurs mercenaires.
+capture-harkonnen-barracks-release-hostages = Capturez la caserne Harkonnen pour libérer les otages.
 
 ## harkonnen-01ab, harkonnen-03ab
-eliminate-atreides-units-reinforcements = Eliminate all Atreides forces and reinforcements in the area.
+eliminate-atreides-units-reinforcements = Éliminez toutes les forces et renforts Atréides dans la zone.
 
 ## harkonnen-02ab, harkonnen-03ab, harkonnen-04, harkonnen-07, harkonnen-08, harkonnen-09, ordos-05, ordos-06a
-atreides-annihilated = The Atreides have been annihilated!
+atreides-annihilated = Les Atréides ont été anéantis !
 
 ## harkonnen-02ab, harkonnen-03ab, harkonnen-04
-destroy-atreides-forces = Destroy all Atreides forces.
+destroy-atreides-forces = Détruisez toutes les forces Atréides.
 
 ## harkonnen-04, harkonnen-07, harkonnen-08, harkonnen-09ab, ordos-05, ordos-06a
-destroy-atreides = Destroy the Atreides.
+destroy-atreides = Détruisez les Atréides.
 
 ## harkonnen-04
-fremen-annihilated = The Fremen have been annihilated!
-destroy-fremen = Destroy the Fremen.
-fremen-spotted-north-southwest = Fremen concentrations spotted to the north and southwest.
+fremen-annihilated = Les Fremen ont été anéantis !
+destroy-fremen = Détruisez les Fremen.
+fremen-spotted-north-southwest = Concentrations de Fremen repérées au nord et au sud-ouest.
 
 ## harkonnen-05
-imperial-ships-penetrating-defense-grid = Imperial ships are penetrating the defense grid!
-enemy-carryall-drop-detected = Enemy carryall drop detected!
-keep-modified-outpost-intact = Keep the modified Outpost intact.
-protect-outpost = Protect the Outpost from attack.
+imperial-ships-penetrating-defense-grid = Des vaisseaux impériaux pénètrent la grille de défense !
+enemy-carryall-drop-detected = Largage par Aile Portante ennemie détecté !
+keep-modified-outpost-intact = Gardez l'Avant-Poste modifié intact.
+protect-outpost = Protégez l'Avant-Poste des attaques.
 
 ## harkonnen-05, harkonnen-09ab
-destroy-imperial-forces = Destroy the Imperial forces.
+destroy-imperial-forces = Détruisez les forces Impériales.
 
 ## harkonnen-05, harkonnen-07, harkonnen-09ab
-emperor-annihilated = The Emperor has been annihilated!
+emperor-annihilated = L'Empereur a été anéanti !
 
 ## harkonnen-05, harkonnen-08
-destroy-ordos = Destroy the Ordos.
+destroy-ordos = Détruisez les Ordos.
 
 ## harkonnen-06ab
-ixian-transports-detected = Ixian transports detected.
-capture-destroy-ordos-starport = Capture or destroy the Ordos Starport.
+ixian-transports-detected = Transports Ixiens détectés.
+capture-destroy-ordos-starport = Capturez ou détruisez le Spatioport Ordos.
 
 ## harkonnen-06ab, harkonnen-09ab
-smugglers-now-hostile = The Smugglers are now hostile!
+smugglers-now-hostile = Les Contrebandiers sont maintenant hostiles !
 
 ## harkonnen-07
-high-tech-factory-neutralized-imperial-reinforcements = High Tech Factory neutralized! Atreides cut off from Imperial reinforcements!
-capture-atreides-construction-yard-south = Capture the Atreides Construction Yard in the south.
-destroy-corrino = Destroy the Corrino.
-destroy-atreides-high-tech-factory-imperial-reinforcements = Destroy the Atreides High Tech Factory to cut them off from Imperial reinforcements.
+high-tech-factory-neutralized-imperial-reinforcements = Usine Avancée neutralisée ! Les Atréides sont coupés des renforts Impériaux !
+capture-atreides-construction-yard-south = Capturez le Chantier de Construction Atréides au sud.
+destroy-corrino = Détruisez les Corrino.
+destroy-atreides-high-tech-factory-imperial-reinforcements = Détruisez l'Usine Avancée Atréides pour les couper des renforts Impériaux.
 
 ## harkonnen-08
-atreides-hostile = The Atreides are now hostile!
-mercenaries-annihilated = The Mercenaries have been annihilated!
-ally-mercenaries = Persuade the Mercenaries to fight alongside House Harkonnen.
-mercenary-leader-captured-allied = Leader Captured. The mercenaries have been persuaded to fight with House Harkonnen.
-cannot-stand-harkonnen-must-become-neutral = We cannot stand against the Harkonnen. We must become neutral.
-atreides-commander = Atreides Commander
+atreides-hostile = Les Atréides sont maintenant hostiles !
+mercenaries-annihilated = Les Mercenaires ont été anéantis !
+ally-mercenaries = Persuadez les Mercenaires de combattre aux côtés de la Maison Harkonnen.
+mercenary-leader-captured-allied = Chef capturé. Les mercenaires ont été persuadés de combattre avec la Maison Harkonnen.
+cannot-stand-harkonnen-must-become-neutral = Nous ne pouvons pas résister aux Harkonnen. Nous devons devenir neutres.
+atreides-commander = Commandant Atréides
 
 ## harkonnen-09ab
-build-deploy-mcv = Build and deploy an MCV to establish a Construction Yard.
+build-deploy-mcv = Construisez et déployez un VCM pour établir un Chantier de Construction.
 
 ## ordos-01ab, ordos-02ab, ordos-03ab, ordos-04, ordos-05
-outpost-not-captured-destroyed = Do not let the Outpost be captured or destroyed.
-capture-smuggler-outpost = Capture the Smuggler Outpost.
-do-not-destroy-outpost = Do not destroy the Outpost!
-warning-large-force-approaching = WARNING: Large enemy force approaching!
+outpost-not-captured-destroyed = Ne laissez pas l'Avant-Poste être capturé ou détruit.
+capture-smuggler-outpost = Capturez l'Avant-Poste des Contrebandiers.
+do-not-destroy-outpost = Ne détruisez pas l'Avant-Poste !
+warning-large-force-approaching = ATTENTION : Force ennemie importante en approche !
 
 ## ordos-05
-capture-atreides-starport-establish-base = Capture the Atreides Starport and establish a base.
+capture-atreides-starport-establish-base = Capturez le Spatioport Atréides et établissez une base.
 
 ## ordos-06a
-ixian-reinforcements-arrived = Ixian reinforcements have arrived!
-deliveries-arriving-massive-reinforcements = Deliveries are beginning to arrive; massive reinforcements expected!
-initial-reinforcements-arrive-in = Initial reinforcements will arrive in { $time }
-additional-reinforcements-arrive-in = Additional reinforcements will arrive in { $time }
-defend-starport = Defend the Starport.
-ixian-reinforcements-in = The first batch of Ixian reinforcements will arrive in { $time }
-enemy-reinforcements-arrived = Enemy reinforcements have arrived.
+ixian-reinforcements-arrived = Les renforts Ixiens sont arrivés !
+deliveries-arriving-massive-reinforcements = Les livraisons commencent à arriver ; des renforts massifs sont attendus !
+initial-reinforcements-arrive-in = Les premiers renforts arriveront dans { $time }
+additional-reinforcements-arrive-in = Des renforts supplémentaires arriveront dans { $time }
+defend-starport = Défendez le Spatioport.
+ixian-reinforcements-in = Le premier lot de renforts Ixiens arrivera dans { $time }
+enemy-reinforcements-arrived = Les renforts ennemis sont arrivés.

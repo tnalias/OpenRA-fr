@@ -1,61 +1,61 @@
 ## Shroud
 checkbox-fog-of-war =
-    .label = Fog of War
-    .description = Line of sight is required to view enemy forces
+    .label = Brouillard de Guerre
+    .description = La vue directe est nécessaire pour voir les forces ennemies
 
 checkbox-explored-map =
-    .label = Explored Map
-    .description = Initial map shroud is revealed
+    .label = Carte Explorée
+    .description = Le voile de la carte est révélé dès le départ
 
 ## DeveloperMode
 checkbox-debug-menu =
-    .label = Debug Menu
-    .description = Enables cheats and developer commands
+    .label = Menu Débogage
+    .description = Active les astuces et commandes de développeur
 
 ## CrateSpawner
 checkbox-crates =
-    .label = Crates
-    .description = Collect crates with units to receive random bonuses or penalties
+    .label = Caisses
+    .description = Collectez des caisses avec vos unités pour des bonus ou malus aléatoires
 
 ## MapBuildRadius
 checkbox-ally-build-radius =
-    .label = Build Off Allies
-    .description = Allows allies to place structures within your build area
+    .label = Construire chez les Alliés
+    .description = Permet aux alliés de construire dans votre zone de construction
 
 checkbox-build-radius =
-    .label = Limit Build Area
-    .description = Limits structure placement to areas around Construction Yards
+    .label = Limiter Zone de Construction
+    .description = Limite la construction aux abords des Chantiers de Construction
 
 ## MapOptions
 checkbox-short-game =
-    .label = Short Game
-    .description = Players are defeated when their bases are destroyed
+    .label = Partie Courte
+    .description = Les joueurs sont éliminés quand leur base est détruite
 
 dropdown-tech-level =
-    .label = Tech Level
-    .description = The units and abilities available to players
+    .label = Niveau Technologique
+    .description = Les unités et capacités disponibles pour les joueurs
 
 ## MapOptions
 dropdown-game-speed =
-    .label = Game Speed
-    .description = Controls the rate at which time passes
+    .label = Vitesse de Jeu
+    .description = Contrôle la vitesse d'écoulement du temps
 
 ## MapStartingLocations
 checkbox-separate-team-spawns =
-    .label = Separate Team Spawns
-    .description = Players without assigned spawn points start as far as possible from enemy players
+    .label = Départs d'Équipe Séparés
+    .description = Sans point assigné, les joueurs démarrent aussi loin que possible des ennemis
 
 ## SpawnStartingUnits
 dropdown-starting-units =
-    .label = Starting Units
-    .description = The units players start with at the beginning of the game
+    .label = Unités de Départ
+    .description = Les unités avec lesquelles les joueurs commencent la partie
 
 ## TimeLimitManager
 dropdown-time-limit =
-    .label = Time Limit
-    .description = The player or team with the highest score at the end of this time wins
+    .label = Limite de Temps
+    .description = Le meilleur score à la fin du temps imparti gagne
 
 ## Tooltip
 label-tooltip-prefix =
-    .ally = Ally
-    .enemy = Enemy
+    .ally = Allié
+    .enemy = Ennemi
